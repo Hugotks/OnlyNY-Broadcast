@@ -1,0 +1,131 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": false,
+        "text_size": 1,
+        "align_text": "text-left",
+        "height": "margin--small",
+        "width": "wrapper--full",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "1649088219654e9403": {
+      "type": "section-custom-content",
+      "blocks": {
+        "1649088219b7c53ef0-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store-flagship.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        },
+        "1649088219b7c53ef0-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "NYC Flagship Store",
+            "text": "<p><strong>Only NY Store<br\/><\/strong>176 Stanton St.<br\/>NY, NY 10002<br\/>Phone (646) 649-5673<\/p><p><strong>Store Hours<br\/><\/strong>Monday-Friday: 12pm-7pm<br\/>Saturday: 11am-7pm<br\/>Sunday: 11am-7pm<\/p><p>The Only NY flagship store opened its doors in November of 2012. Located in the heart of the Lower East Side, the Only NY store carries our current seasonal collections, as well as special projects, collaborations, and in-store exclusives.<br\/><br\/><\/p>",
+            "text_size": 1,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "Get Directions",
+            "button_url": "https:\/\/goo.gl\/maps\/rudtBTnLQbT6dJ7z7",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input btn--outline",
+            "button_2_text": "Call Store",
+            "button_2_url": "tel:646-649-5673",
+            "button_2_color": "btn--neutral",
+            "button_2_style": "hero__btn btn btn--input"
+          }
+        }
+      },
+      "block_order": [
+        "1649088219b7c53ef0-0",
+        "1649088219b7c53ef0-1"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": false,
+        "borders": false,
+        "wrapper": false
+      }
+    },
+    "16490882466afbda18": {
+      "type": "section-custom-content",
+      "blocks": {
+        "16490882465e26c598-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "",
+            "title": "Brooklyn Store",
+            "text": "<p><strong>Only NY Brooklyn<\/strong><br\/>49 Franklin St.<br\/>Brooklyn, NY 11222<br\/>Phone (347) 599-1187<\/p><p><strong>Store Hours<br\/><\/strong>Monday-Friday: 12pm-7pm<br\/>Saturday: 11am-7pm<br\/>Sunday: 11am-7pm<\/p><p>We opened our second New York location on August 3rd, 2019 in the Greenpoint neighborhood of Brooklyn. Only NY Brooklyn carries our current seasonal collections, special projects, collaborations, and in-store exclusives. This store also serves as our main event space.<br\/><br\/><\/p>",
+            "text_size": 1,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "text_color": "text-dark",
+            "bg_color": "#ffffff",
+            "button_text": "Get Directions",
+            "button_url": "https:\/\/g.page\/ONLY-NY?share",
+            "button_color": "btn--neutral",
+            "button_style": "hero__btn btn btn--input btn--outline",
+            "button_2_text": "Call store",
+            "button_2_url": "tel:347-599-1187",
+            "button_2_color": "btn--neutral",
+            "button_2_style": "hero__btn btn btn--input"
+          }
+        },
+        "16490882465e26c598-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/store-brooklyn.png",
+            "bg_position": "center-center",
+            "overlay_opacity": 0,
+            "overlay_color": "#000000",
+            "title": "",
+            "description": "",
+            "flex_align": "align--middle-center",
+            "text_color": "text-light",
+            "transparent": true,
+            "link_text": "",
+            "link": "",
+            "button_color": "btn--white",
+            "button_style": "hero__btn btn btn--large btn--outline caps"
+          }
+        }
+      },
+      "block_order": [
+        "16490882465e26c598-1",
+        "16490882465e26c598-0"
+      ],
+      "settings": {
+        "height": "image-height",
+        "padding": true,
+        "borders": false,
+        "wrapper": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1649088219654e9403",
+    "16490882466afbda18"
+  ]
+}

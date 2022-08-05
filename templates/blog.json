@@ -1,0 +1,79 @@
+{
+  "sections": {
+    "165516582126ad33a2": {
+      "type": "section-hero",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mike-spears.jpg",
+        "bg_position": "center-center",
+        "height": "screen-height-two-thirds",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "title": "Newsstand.",
+        "description": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline"
+      }
+    },
+    "featured": {
+      "type": "featured-posts",
+      "disabled": true,
+      "blocks": {
+        "feat": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "news\/spring-summer-2022-delivery-3",
+            "subheading": "",
+            "bg_position": "center-center"
+          }
+        },
+        "700b0579-9f1f-4f8b-8e86-fd5222cfd556": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "",
+            "subheading": "Featured post",
+            "bg_position": "center-center"
+          }
+        }
+      },
+      "block_order": [
+        "feat",
+        "700b0579-9f1f-4f8b-8e86-fd5222cfd556"
+      ],
+      "settings": {
+        "show_author": false,
+        "show_date": false,
+        "show_button": false,
+        "text_color": "text-light",
+        "bg_color": "#000000",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--input"
+      }
+    },
+    "main": {
+      "type": "blog",
+      "settings": {
+        "show_title": false,
+        "show_rss": false,
+        "show_tag_nav": true,
+        "grid": 3,
+        "rows": 4,
+        "aspect_ratio": 0.7,
+        "show_tags": false,
+        "show_author": false,
+        "show_date": false,
+        "show_button": false,
+        "show_comments": false
+      }
+    }
+  },
+  "order": [
+    "165516582126ad33a2",
+    "featured",
+    "main"
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": false,
+        "text_size": 2,
+        "align_text": "text-center",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "faq-first": {
+      "type": "page-faq",
+      "blocks": {
+        "faq-0": {
+          "type": "question",
+          "settings": {
+            "title": "Processing Time",
+            "content": "<p>Generally, orders are processed and shipped within 1-2 business days. However, please allow up to 8 business days which an occur during high volume order periods. <br\/><br\/>All orders are shipped from New York City and delivery time is based on shipping method chosen by customer.<\/p>"
+          }
+        },
+        "faq-1": {
+          "type": "question",
+          "settings": {
+            "title": "Order Tracking",
+            "content": "<p>You will automatically be emailed tracking once your package is shipped by our warehouse team. If you haven’t received tracking please reach out to info@onlyny.com.<\/p>"
+          }
+        },
+        "faq-2": {
+          "type": "question",
+          "settings": {
+            "title": "Domestic Shipping Options",
+            "content": "<p>We currently offer UPS Ground, and UPS 2nd Day.<\/p>"
+          }
+        },
+        "d1ef3c4c-c15e-460b-8e75-47ba838b40f4": {
+          "type": "question",
+          "settings": {
+            "title": "International Shipping Options",
+            "content": "<p>We currently offer USPS Priority Mail International and UPS Worldwide Expedited Shipping. Some of these services offer customers the ability to pay taxes and duties at checkout.<\/p>"
+          }
+        },
+        "35d5fc2f-ce13-40cc-a064-226148b638be": {
+          "type": "question",
+          "settings": {
+            "title": "International Delivery Times",
+            "content": "<p>International delivery typically takes 4-10 days from date shipped. However, some international shipments can take up to 4 weeks depending on local carriers and location.<\/p>"
+          }
+        },
+        "3f9471b5-9d27-4183-a4ac-5c12ca7bf666": {
+          "type": "question",
+          "settings": {
+            "title": "European\/UK Shipping",
+            "content": "<p>Currently, none of the Only NY products are available to be delivered to Europe\/UK due to legal restrictions. Please visit us at one of New York City stores.<\/p>"
+          }
+        },
+        "093c0509-effa-46a8-a682-605e1b7ee12b": {
+          "type": "question",
+          "settings": {
+            "title": "Missing Package",
+            "content": "<p>Please allow 24 hours after the stated delivery time to contact us. Sometimes packages are scanned early or accidentally delivered to a neighbor. If your package has not been located after 24 hours, please contact us!<\/p>"
+          }
+        },
+        "ef7f8a9c-99b1-4a53-89a7-b595ff257179": {
+          "type": "question",
+          "settings": {
+            "title": "Exchanges & Returns",
+            "content": "<p>Please reach out to us via our Returns page to instantly request a return.<br\/><br\/>Full priced items purchased from our site are eligible for a full refund or exchange if returned within 14 days of purchase.<br\/><br\/>For all domestic customers (within the United States), a prepaid return shipping label will be provided at no charge to return your merchandise. For all international customers, return shipping costs will not be covered.<\/p>"
+          }
+        },
+        "62efab5d-e930-4b0c-a73b-b026ca0a2a6f": {
+          "type": "question",
+          "settings": {
+            "title": "Collaborations\/Partnerships",
+            "content": "<p>Please reach out to us at info@onlyny.com with an introduction.<\/p>"
+          }
+        },
+        "59304bcf-787d-4a2c-8aa6-0ba48eaf37e4": {
+          "type": "question",
+          "settings": {
+            "title": "Careers & Internships",
+            "content": "<p>Please refer to our Careers page for available LinkedIn job postings.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq-0",
+        "faq-1",
+        "faq-2",
+        "d1ef3c4c-c15e-460b-8e75-47ba838b40f4",
+        "35d5fc2f-ce13-40cc-a064-226148b638be",
+        "3f9471b5-9d27-4183-a4ac-5c12ca7bf666",
+        "093c0509-effa-46a8-a682-605e1b7ee12b",
+        "ef7f8a9c-99b1-4a53-89a7-b595ff257179",
+        "62efab5d-e930-4b0c-a73b-b026ca0a2a6f",
+        "59304bcf-787d-4a2c-8aa6-0ba48eaf37e4"
+      ],
+      "settings": {
+        "width": "wrapper--narrow",
+        "height": "margin--zero",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "1649438789e7aa1298": {
+      "type": "contact-form",
+      "blocks": {
+        "1649438789a71a08b0-0": {
+          "type": "text",
+          "settings": {
+            "title": "Full Name",
+            "required": false
+          }
+        },
+        "1649438789a71a08b0-1": {
+          "type": "email",
+          "settings": {
+            "title": "Email",
+            "required": true
+          }
+        },
+        "80266f34-7a31-44f4-bc68-5bcc3fad0f90": {
+          "type": "text",
+          "settings": {
+            "title": "Order #",
+            "required": false
+          }
+        },
+        "1649438789a71a08b0-2": {
+          "type": "body",
+          "settings": {
+            "title": "Message",
+            "required": true
+          }
+        }
+      },
+      "block_order": [
+        "1649438789a71a08b0-0",
+        "1649438789a71a08b0-1",
+        "80266f34-7a31-44f4-bc68-5bcc3fad0f90",
+        "1649438789a71a08b0-2"
+      ],
+      "settings": {
+        "title": "Get In Touch",
+        "terms": true,
+        "height": "margin--small",
+        "width": "wrapper--narrow",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq-first",
+    "1649438789e7aa1298"
+  ]
+}

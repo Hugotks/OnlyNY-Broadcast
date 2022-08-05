@@ -1,0 +1,246 @@
+{
+  "sections": {
+    "165902481943f6d9d7": {
+      "type": "section-announcement",
+      "disabled": true,
+      "blocks": {
+        "16590248192970b14d-0": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Make an announcement<\/strong> | Target to specific devices or referrers<\/p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "16590248192970b14d-2": {
+          "type": "message",
+          "settings": {
+            "show_wheel": false,
+            "message": "Spend ||amount|| more for free shipping.",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
+        "16590248192970b14d-3": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Create a scrolling marquee or a simple announcement<\/strong><\/p>",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "16590248192970b14d-0",
+        "16590248192970b14d-2",
+        "16590248192970b14d-3"
+      ],
+      "settings": {
+        "bg_color": "#ffffff",
+        "color": "#03fa07",
+        "layout": "marquee",
+        "speed": 15
+      }
+    },
+    "hero": {
+      "type": "collection-image-with-title",
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "text_color": "text-dark",
+        "flex_align": "align--top-left",
+        "transparent": false,
+        "show_image": false,
+        "banner_layout": "overlay",
+        "height": "image-height",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000"
+      }
+    },
+    "1655155123aa087e6c": {
+      "type": "section-columns",
+      "disabled": true,
+      "blocks": {
+        "16551551228b8c8115-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/OnlyNY_NYCCollection22_7.jpg",
+            "bg_position": "center-center",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "16551551228b8c8115-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NYC-PARKS2.jpg",
+            "bg_position": "center-center",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "b7fd92e5-71b5-4a83-bb50-d9222e9ad1e3": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/washsq_onlyny_1012.jpg",
+            "bg_position": "center-center",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "c5fbb6d0-ab1c-43de-a0d0-155ef288dfe0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/000031100032Re-edit4.jpg",
+            "bg_position": "center-center",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        }
+      },
+      "block_order": [
+        "16551551228b8c8115-0",
+        "16551551228b8c8115-1",
+        "b7fd92e5-71b5-4a83-bb50-d9222e9ad1e3",
+        "c5fbb6d0-ab1c-43de-a0d0-155ef288dfe0"
+      ],
+      "settings": {
+        "title": "",
+        "bg_color": "#ffffff",
+        "align_title": "text-left",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "columns": 2,
+        "equalize_height": true,
+        "photo_aspect_ratio": 1.2,
+        "enable_image": true
+      }
+    },
+    "16551544439c13b24a": {
+      "type": "section-hero",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/nyc_de970b0a-56a5-415a-916a-ce6dcc5414f9.jpg",
+        "bg_position": "center-center",
+        "height": "image-height",
+        "overlay_opacity": 0,
+        "overlay_color": "#000000",
+        "title": "",
+        "description": "",
+        "flex_align": "align--middle-center",
+        "text_color": "text-light",
+        "transparent": true,
+        "link_text": "",
+        "link": "",
+        "button_color": "btn--white",
+        "button_style": "hero__btn btn btn--large btn--outline"
+      }
+    },
+    "165515453674c9a1f6": {
+      "type": "section-rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "Only NY or the City of New York.",
+        "title": "",
+        "text": "<p><strong>Only NY has proudly been designing and producing original NYC municipal inspired apparel and accessories since 2015 as an official partner of the City of New York. A portion of the proceeds from the sale of this collection benefit the City of New York.<\/strong><\/p>",
+        "text_size": 4,
+        "text_columns": 1,
+        "align_text": "text-left",
+        "align_button": "text-left",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "h4",
+        "height": "margin--small",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollection_layout": "grid",
+        "subcollection_description": false,
+        "select_image": "collection"
+      }
+    },
+    "main": {
+      "type": "collection",
+      "blocks": {
+        "eb718319-211f-4f9b-81d1-3a422fa0cdc9": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "featured_image": "shopify:\/\/shop_images\/Summer2022_44.jpg",
+            "featured_image_bg_position": "center-center",
+            "featured_heading": "",
+            "featured_text": "",
+            "featured_button_text": "",
+            "featured_button_link": "shopify:\/\/products\/only-ny-bfc-soccer-jersey",
+            "featured_color_text": "#ffffff",
+            "featured_color_overlay": "#222222",
+            "featured_overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "eb718319-211f-4f9b-81d1-3a422fa0cdc9"
+      ],
+      "settings": {
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "slide-out",
+        "grid": 4,
+        "grid_mobile": "2",
+        "product_limit": 50
+      }
+    }
+  },
+  "order": [
+    "165902481943f6d9d7",
+    "hero",
+    "1655155123aa087e6c",
+    "16551544439c13b24a",
+    "165515453674c9a1f6",
+    "subcollections",
+    "main"
+  ]
+}

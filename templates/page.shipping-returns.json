@@ -1,0 +1,202 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": false,
+        "text_size": 1,
+        "align_text": "text-center",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "1649440455e41aaad8": {
+      "type": "section-accordion",
+      "blocks": {
+        "1649440455b8964b01-0": {
+          "type": "text",
+          "settings": {
+            "column_width": "one-half",
+            "title": "General",
+            "text": "<p>Please review the following basic terms that govern your use of, and purchase of, products from ONLYNY.COM. Please note that your use of ONLYNY.COM constitutes your agreement to follow and be bound by those terms.<\/p>"
+          }
+        },
+        "9b979525-59b8-4dc2-8fa9-9891482ba103": {
+          "type": "text",
+          "settings": {
+            "column_width": "one-half",
+            "title": "Contact",
+            "text": "<p>Questions or concerns? Please do not hesitate to contact us at <a href=\"http:\/\/onlynylives.com\/terms\/info@onlynylives.com\">info@onlyny.com<\/a> and we'll get back to you as soon as possible. Our business hours are 10am-6pm EST, Monday through Friday. All correspondence received on holidays, Saturday, or Sunday will be addressed the following business day.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1649440455b8964b01-0",
+        "9b979525-59b8-4dc2-8fa9-9891482ba103"
+      ],
+      "settings": {
+        "title": "General"
+      }
+    },
+    "16494401065c87ad3f": {
+      "type": "section-accordion",
+      "blocks": {
+        "1649440106e85c959d-0": {
+          "type": "text",
+          "settings": {
+            "column_width": "one-whole",
+            "title": "Policy",
+            "text": "<p><br\/>To instantly request a return, <a href=\"https:\/\/returns.onlyny.com\/\">please click here<\/a>.<br\/><br\/><\/p><p>Full priced items purchased from Only NY can be returned within 14 days from purchase or delivery. Items returned within 14 days of purchase must be unworn in their original condition with tags attached.<br\/><br\/><\/p><p><\/p><p>All Sale items are FINAL SALE<br\/><br\/>Shipping charges are non-refundable<br\/><br\/><\/p><p>If you received an incorrect or damaged item, please reach out to <a>info@onlyny.com<br\/><\/a><br\/><\/p><p><strong>Please note, exchanges are treated as a return with new purchase.<\/strong><\/p>"
+          }
+        },
+        "1649440106e85c959d-1": {
+          "type": "text",
+          "settings": {
+            "column_width": "one-whole",
+            "title": "Conditions",
+            "text": "<p>Items must be returned to back to us in their original packaging, in as-new condition with printed receipts. In as-new condition is defined as unworn, unwashed, undamaged (beyond what is noted if returning\/exchanging due to factory defect), and unused with all original tags attached. All packaging must accompany the product and must also be in new condition (i.e. shoe boxes). We reserve the right to refuse an exchange if the merchandise does not meet this criterion. <\/p><p><\/p>"
+          }
+        },
+        "1649440106e85c959d-2": {
+          "type": "text",
+          "settings": {
+            "column_width": "one-whole",
+            "title": "Refunds",
+            "text": "<p>Returns take us 3-5 business days to process upon reaching our facility. Once your return is processed and your refund is issued, you will receive a refund confirmation email. Refunds can take several business days to reflect on your credit card account. This varies depending on your financial institution.<\/p>"
+          }
+        },
+        "1649440106e85c959d-3": {
+          "type": "text",
+          "settings": {
+            "column_width": "one-whole",
+            "title": "Exceptions",
+            "text": "<p>If you return more than $500 in a 12 month period you may be subject to a modified return policy. We will contact you if you are subject to the modified policy.<\/p><p>If you return more than $500 in a 12 month period you may be subject to a modified return policy. We will contact you if you are subject to the modified policy. Price adjustments can be honored if a customer has purchased an item within the last 7 days.<\/p><p>For all international customers, please email info@onlyny.com. <\/p><p>*Please note that the customer is liable for all lost and stolen packages.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1649440106e85c959d-0",
+        "1649440106e85c959d-1",
+        "1649440106e85c959d-2",
+        "1649440106e85c959d-3"
+      ],
+      "settings": {
+        "title": "Returns & Exchanges"
+      }
+    },
+    "1649440223438ef8d0": {
+      "type": "section-accordion",
+      "blocks": {
+        "1649440223e06ba886-0": {
+          "type": "text",
+          "settings": {
+            "column_width": "one-half",
+            "title": "Processing Time",
+            "text": "<p>Please note, we cannot edit orders once they are placed and registered in our system. Most orders are processed and shipped within 1-2 business days of purchase. However, please allow up to 8-10 business days for processing (especially during promotional periods). All orders are shipped from New York City and delivery time is based on shipping method. See below for details.<\/p>"
+          }
+        },
+        "1649440223e06ba886-1": {
+          "type": "text",
+          "settings": {
+            "column_width": "one-half",
+            "title": "Tracking Issues",
+            "text": "<p>Please note, if your tracking states that your package has been delivered, but you have not received anything yet, please allow 24 hours after the stated delivery time to contact us. Sometimes packages are scanned early or accidentally delivered to a neighbor. If your package has not been located after the above time period, please reach out to us for assistance at info@onlyny.com.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1649440223e06ba886-0",
+        "1649440223e06ba886-1"
+      ],
+      "settings": {
+        "title": "Shipping & Delivery"
+      }
+    },
+    "164944052296e255d6": {
+      "type": "section-accordion",
+      "blocks": {
+        "164944052273351aca-0": {
+          "type": "text",
+          "settings": {
+            "column_width": "one-whole",
+            "title": "",
+            "text": "<p>ONLY NY INC is not responsible for any lost, stolen, or damaged shipments and the buyer assumes all responsibilities of claims made with the shipping carrier.<\/p>"
+          }
+        },
+        "75c54571-c35a-4547-9b33-df029fc974ed": {
+          "type": "html",
+          "settings": {
+            "column_width": "one-half",
+            "title": "UPS Ground",
+            "html": "<ul>\n<li>Standard delivery time is 4-7 business days from date shipped, but may take longer.<\/li>\n<li>Shipping prices are calculated using real time quotes and are based on weight and destination.<\/li>\n<li>We currently cannot fulfill and ship orders to P.O. Box addresses.<\/li>\n<\/ul>"
+          }
+        },
+        "7026c759-715a-44f4-ae18-9e0a5c0960c2": {
+          "type": "html",
+          "settings": {
+            "column_width": "one-half",
+            "title": "UPS 2nd Day",
+            "html": "<ul>\n<li>Available within the 48 continental states. Delivery time is 1-2 business days from date shipped, but can take longer depending on when the package is packed and picked up.<\/li>\n<li>Shipping prices are calculated using real time quotes and are based on weight and destination.<\/li>\n<li>We currently cannot fulfill and ship orders to P.O. Box addresses.<\/li>\n<\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "164944052273351aca-0",
+        "75c54571-c35a-4547-9b33-df029fc974ed",
+        "7026c759-715a-44f4-ae18-9e0a5c0960c2"
+      ],
+      "settings": {
+        "title": "Domestic (USA)"
+      }
+    },
+    "16494409638c2d7aa8": {
+      "type": "section-accordion",
+      "blocks": {
+        "473fc84e-7bc9-41cb-8111-4feeb991898e": {
+          "type": "text",
+          "settings": {
+            "column_width": "one-whole",
+            "title": "Customs & Duties",
+            "text": "<p>Customs & Duties:<\/p><p>United States Postal Service (USPS) will be offered until further notice. Two USPS shipping options will be offered, Priority Mail (arriving in 1-2 weeks) and First Class Mail (arriving in 2-4 weeks). Shipping costs will be dependent on order size and quantity, with real-time quotes offered during the checkout process. Please contact <a target=\"_blank\">info@onlyny.com<\/a> if you have any questions.<\/p><p><\/p><p>Goods will be imported on behalf of the consignee\/e-buyer. The consignee authorizes Only NY to import the goods on their behalf. Further, the consignee\/buyer agrees that Only NY may delegate the obligation to import the goods on their behalf to a subcontractor (e.g. customs broker). The consignee will pay the taxes & duties in addition with the purchase price of the goods.<\/p><p>Note: It can take up to 6 weeks from the date the package is shipped to clear international customs and arrive at international destinations.<\/p>"
+          }
+        },
+        "77e046d3-7852-402b-ba40-77f640836e36": {
+          "type": "html",
+          "settings": {
+            "column_width": "one-whole",
+            "title": "UPS Worldwide Expedited",
+            "html": "<ul>\n<li>UPS Worldwide Expedited is a guaranteed, reliable service for international shipments.<\/li>\n<li>Standard delivery time for UPS Worldwide Expedited is 3-4 business days from date shipped, but may take longer.<\/li>\n<li>Pricing is calculated at checkout using UPS real time quotes and is based on weight and destination. <\/li>\n<\/ul>"
+          }
+        },
+        "08d5c6ca-d4ee-4751-80e5-eb357fc1920e": {
+          "type": "html",
+          "settings": {
+            "column_width": "one-whole",
+            "title": "Shipping Restrictions",
+            "html": "<ul>\n<li>Please note that the Shipping and Billing country must match.<\/li>\n<li>At this time, we are only able to ship products from the Stanton Street Sports collections to Europe.<\/li>\n<li>Additionally, we are unable to ship decks outside of the contiguous United States. All orders placed outside of the lower 48 will be refunded for said items.<\/li>\n<\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "473fc84e-7bc9-41cb-8111-4feeb991898e",
+        "77e046d3-7852-402b-ba40-77f640836e36",
+        "08d5c6ca-d4ee-4751-80e5-eb357fc1920e"
+      ],
+      "settings": {
+        "title": "International"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1649440455e41aaad8",
+    "16494401065c87ad3f",
+    "1649440223438ef8d0",
+    "164944052296e255d6",
+    "16494409638c2d7aa8"
+  ]
+}

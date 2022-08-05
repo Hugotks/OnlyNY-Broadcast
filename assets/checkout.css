@@ -1,0 +1,39 @@
+body, h1, h2, h3, h4, .heading-2, .btn__content, .checkout-note{
+  font-family: 'Helvetica Neue LT Pro', Helvetica, Sans-Serif;
+}
+
+.section__title{
+  font-weight: bold;
+}
+
+.product__description__name,
+.sidebar .payment-due-label__total,
+.sidebar .payment-due__price{
+  font-weight: 700;
+}
+
+.breadcrumb__item--current,
+.breadcrumb__item{
+  font-weight: 700;
+  color: #D1D1D1;
+}
+
+.checkout-note{
+  margin-bottom: 30px;
+  color: #000;
+  font-size: 14px;
+}
+
+.step__footer__continue-btn{
+  border-radius: 100px;
+  min-height: 42px;
+  padding: 7px 20px;
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+[data-step="contact_information"] .section--shipping-address > .section__header, [data-step="contact_information"] .section--shipping-address > .section__content > .content-box {
+  display: none;
+}

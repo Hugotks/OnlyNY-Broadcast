@@ -1,0 +1,29 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "",
+        "show_title": true,
+        "show_content": false,
+        "text_size": 1,
+        "align_text": "text-center",
+        "height": "margin--medium",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
+    "1658958455e4c06b02": {
+      "type": "custom-html",
+      "settings": {
+        "html": "<style>\n.custom-html-section--padding{\npadding-top: 0;\n}\n<\/style>\n\n<div id=\"GiftWizard-account__div\"><\/div>",
+        "show_padding": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1658958455e4c06b02"
+  ]
+}
