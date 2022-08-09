@@ -29,7 +29,11 @@
 {%- if section.settings.grid != blank and section.settings.rows != blank -%}
   {%- assign layout_grid_classes = '' -%}
   {%- assign layout_grid_attributes = '' -%}
-  {%- assign limit_products = section.settings.limit | times: section.settings.rows -%}
+  {%- if section.settings.limit != blank -%}
+    {%- assign limit_products = section.settings.limit | times: section.settings.rows -%}
+  {%- else -%}
+    {%- assign limit_products = section.settings.grid | times: section.settings.rows -%}
+  {%- endif -%}
   {%- assign limit_onboarding = limit_products -%}
   
   {% case section.settings.grid %}
