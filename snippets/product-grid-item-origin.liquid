@@ -131,7 +131,7 @@
       <span class="sale-box">{{ 'products.product.on_sale' | t }}</span>
     {%- endif -%}
 
-    {%- if settings.quickview_enable and current_variant -%}
+    {% comment %} {%- if settings.quickview_enable and current_variant -%}
       <button type="button" class="quick-add-button" tabindex="-1" data-button-quick-add-mobile{% if product.has_only_default_variant %} data-quick-add-button{% endif %}>
         <span class="visually-hidden">{{ 'products.general.quick_view' | t }}</span>
 
@@ -161,7 +161,7 @@
 
         <div data-quick-add-form-holder>&nbsp;</div>
       </div>
-    {%- endif -%}
+    {%- endif -%} {% endcomment %}
   {%- endcapture -%}
 
   <div class="product-item__image{% if double_img %} double__image{% endif %}" data-product-image>
