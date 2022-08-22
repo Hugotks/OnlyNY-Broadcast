@@ -2701,6 +2701,7 @@
           const hasFreeShipping = message.hasAttribute(this.settings.elements.cartMessageValue) && message.getAttribute(this.settings.elements.cartMessageValue) === 'true' && total !== 0;
           const cartMessageClass = hasFreeShipping ? this.settings.classes.success : this.settings.classes.hidden;
 
+          message.classList.remove('is-hidden');
           message.classList.toggle(cartMessageClass, total >= this.cartFreeLimitShipping || total === 0);
         });
       }
@@ -6736,7 +6737,9 @@
     resetButtonsOfInstance() {
       this.quickAddLabel.classList.remove(selectors$g.classes.select, selectors$g.classes.added, selectors$g.classes.visible);
 
-      this.buttonQuickAddMobile.classList.remove(selectors$g.classes.hide);
+      if (this.buttonQuickAddMobile) {
+        this.buttonQuickAddMobile.classList.remove(selectors$g.classes.hide);
+      }
     }
 
     /**
