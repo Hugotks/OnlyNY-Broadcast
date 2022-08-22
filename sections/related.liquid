@@ -6,7 +6,14 @@
   {% assign has_related_products = false %}
 {%- endif -%}
 
-<div class="related__wrapper js" data-section-id="{{ section.id }}" data-section-type="related">
+{%- style -%}
+  .related__wrapper {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+<div class="section-padding related__wrapper js" data-section-id="{{ section.id }}" data-section-type="related">
 
   {%- if has_related_products and has_recently_products != true -%}
     <div class="tabs-wrapper related__products" data-tabs-holder>
@@ -177,6 +184,26 @@
       "id": "product_recently_heading",
       "label": "Heading",
       "default": "Recently viewed"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
     }
   ]
 }

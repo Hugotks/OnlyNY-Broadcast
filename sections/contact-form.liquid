@@ -1,6 +1,14 @@
 <!-- /sections/contact-form.liquid -->
+{%- style -%}
+  #ContactForm--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
 
-<section class="index-contact {{ section.settings.text_color }} {{ section.settings.height }}" style="background-color: {{ section.settings.bg_color }};" data-section-id="{{ section.id }}" data-section-type="contact">
+<section 
+  id="ContactForm--{{ section.id }}
+  class="section-padding index-contact {{ section.settings.text_color }} {{ section.settings.height }}" style="background-color: {{ section.settings.bg_color }};" data-section-id="{{ section.id }}" data-section-type="contact">
   <div class="{{ section.settings.width }}">
     {%- if section.settings.title != blank -%}
       <h2 class="h5 contact__form__heading">{{ section.settings.title }}</h2>
@@ -248,6 +256,26 @@
         "id": "bg_color",
         "label": "Background",
         "default": "#ffffff"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 0
       }
     ],
     "blocks": [

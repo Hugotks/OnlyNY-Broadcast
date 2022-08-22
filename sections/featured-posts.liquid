@@ -3,8 +3,17 @@
   assign default_content = 'home_page.onboarding.no_content' | t
 %}
 
+{%- style -%}
+  #BlogPage--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
 {% if section.blocks.size > 0 %}
-  <section class="blog-page" data-section-id="{{ section.id }}" data-section-type="blog-template">
+  <section
+    id="BlogPage--{{ section.id }}"
+    class="section-padding blog-page" data-section-id="{{ section.id }}" data-section-type="blog-template">
     <div class="blog-editorial {{ section.settings.text_color }}" style="background-color: {{section.settings.section_bg}};">
       <div class="editorial__slider editorial__slider--{{ section.id }}" data-slider="{{ section.id }}" data-dots="hidden" data-arrows="true">
         {% for block in section.blocks %}
@@ -136,6 +145,26 @@
           {"value": "hero__btn btn btn--input btn--outline", "label": "Small outline button"},
           {"value": "hero__btn btn btn--large btn--outline", "label": "Large outline button"}
         ]
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 0
       }
     ],
     "blocks": [

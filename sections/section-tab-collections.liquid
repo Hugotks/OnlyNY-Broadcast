@@ -25,7 +25,16 @@
   endcapture
 -%}
 
-<section class="index-tab-collections layout--slider"
+{%- style -%}
+  #TabCollections--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+<section 
+  id="TabCollections--{{ section.id }}"
+  class="index-tab-collections layout--slider section-padding"
   data-section-id="{{ section.id }}"
   data-section-type="product-grid">
 
@@ -211,6 +220,26 @@
       "label": "Heading",
       "id": "title",
       "type": "text"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
     }
   ],
   "blocks":[

@@ -16,7 +16,16 @@
 
 {%- assign animation_anchor = '#text-row--' | append: section.id -%}
 
-<div class="text-row {{ section.settings.text_color }} {{ section.settings.height }}" id="text-row--{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="text-row" data-text-alignment="{{ text_alignment }}" style="background-color: {{ bg_color }};">
+{%- style -%}
+  #TextRow--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+<div 
+  id="TextRow--{{ section.id }}"
+  class="section-padding text-row {{ section.settings.text_color }} {{ section.settings.height }}" id="text-row--{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="text-row" data-text-alignment="{{ text_alignment }}" style="background-color: {{ bg_color }};">
   <div class="wrapper--columns {{ section.settings.icon_alignment }} {{ section.settings.icon_size }}">
     <div class="grid grid--uniform">
 
@@ -140,6 +149,26 @@
       "id": "bg_color",
       "label": "Background color",
       "default": "#fafafa"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
     }
   ],
   "blocks": [

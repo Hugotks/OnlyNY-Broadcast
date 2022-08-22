@@ -1,5 +1,15 @@
 <!-- /sections/section-recent-products.liquid -->
-<div class="recent__container js" data-section-id="{{ section.id }}" data-section-type="related">
+
+{%- style -%}
+  #RecentProducts--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+<div
+  id="RecentProducts--{{ section.id }}"
+  class="recent__container js section-padding" data-section-id="{{ section.id }}" data-section-type="related">
   <div class="recent__container__inner is-hidden" data-recently-viewed-wrapper>
     <div class="tabs-wrapper related__products" data-tabs-holder>
       <div class="tabs__head">
@@ -57,6 +67,26 @@
       "label": "Display threshold",
       "info": "Hide section until a minimum of products can be shown.",
       "default": 4
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
     }
   ],
   "presets": [

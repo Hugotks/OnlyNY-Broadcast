@@ -33,7 +33,16 @@
 
 {%- assign animation_anchor = '#collections-list--' | append: section.id -%}
 
-<section class="index-collections-list {{ section_modifier }}"
+{%- style -%}
+  #CollectionsList--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+<section
+  id="CollectionsList--{{ section.id }}"
+  class="index-collections-list {{ section_modifier }}"
   id="collections-list--{{ section.id }}"
   data-section-id="{{ section.id }}" 
   data-section-type="list-collections">

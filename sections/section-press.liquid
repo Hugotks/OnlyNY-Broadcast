@@ -7,12 +7,14 @@
   .logos--{{ section.id }} {
     --bg: {{ section.settings.bg_color }};
     ---logo-opacity: {{ logo_opacity }};
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
   }
 </style>
 
 {%- assign slider_text_show = false -%}
 
-<div class="logos logos--{{ section.id }} {{ section.settings.text_color }}" data-section-id="{{ section.id }}" data-section-type="logos">
+<div class="section-padding logos logos--{{ section.id }} {{ section.settings.text_color }}" data-section-id="{{ section.id }}" data-section-type="logos">
   <div class="container">
     <div class="logos__wrapper{% if heading.size %} logos__wrapper--tall{% endif %}">
 
@@ -125,6 +127,26 @@
       "id": "bg_color",
       "label": "Background color",
       "default": "#fafafa"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
     }
   ],
   "blocks": [

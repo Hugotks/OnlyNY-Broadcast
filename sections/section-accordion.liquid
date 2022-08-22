@@ -1,5 +1,14 @@
 {%- if section.blocks.size > 0 -%}
-  <div class="faq" data-section-id="{{ section.id }}" data-section-type="faq">
+  {%- style -%}
+    #Faq--{{ section.id }} {
+      --PT: {{ section.settings.padding_top }}px;
+      --PB: {{ section.settings.padding_bottom }}px;
+    }
+  {%- endstyle -%}
+
+  <div 
+    id="Faq--{{ section.id }}"
+    class="faq section-padding" data-section-id="{{ section.id }}" data-section-type="faq">
     {%- render 'faq', section: section -%}
   </div>
 {%- endif -%}
@@ -15,6 +24,26 @@
       "id": "title",
       "label": "Heading",
       "default": "FAQ"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
     }
   ],
   "blocks": [

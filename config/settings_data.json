@@ -47,14 +47,15 @@
     "quickview_enable": true,
     "color_swatch": "image",
     "favicon": "shopify:\/\/shop_images\/OnlyNY_BlockLogo_Filled_copy.png",
+    "enable_order_notes": true,
     "enable_gift_notes": false,
-    "enable_estimate_shipping": false,
+    "enable_estimate_shipping": true,
     "enable_additional_buttons": false,
     "show_free_shipping_message": true,
-    "message": "Spend ||amount|| more for free shipping",
+    "message": "||amount|| Until Free US Shipping. \n<br>\nFree Returns on all US orders.",
     "free_shipping_limit": "150",
-    "checkout_logo_image": "shopify:\/\/shop_images\/onlynylogo_b4c946a1-1676-4bf5-95a3-42c0fdddaa71.jpg",
-    "checkout_logo_position": "left",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Screen_Shot_2022-03-18_at_9.30.34_AM.png",
+    "checkout_logo_position": "center",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#fff",
     "checkout_input_background_color_mode": "white",
@@ -80,6 +81,7 @@
             "settings": {
               "position": "1",
               "image": "shopify:\/\/shop_images\/lighter-1.jpg",
+              "show_image": true,
               "aspect_ratio": 0.7,
               "wide_image": false,
               "bg_position": "center-center",
@@ -93,12 +95,13 @@
             "settings": {
               "position": "2",
               "image": "shopify:\/\/shop_images\/S300458-R1-014-5A_1024x1024_119463f1-0f8e-4eae-a7c0-698cbccc3949.jpg",
+              "show_image": true,
               "aspect_ratio": 0.7,
               "wide_image": false,
               "bg_position": "center-center",
               "title": "",
               "link_text": "",
-              "link": "#"
+              "link": ""
             }
           }
         },
@@ -128,11 +131,24 @@
       "announcement": {
         "type": "announcement",
         "blocks": {
+          "3bb205a6-23a2-4773-8337-90553efc6ef4": {
+            "type": "message",
+            "settings": {
+              "show_wheel": true,
+              "message": "||amount|| until Free US Shipping.",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          },
           "a2acf12f-8bbb-4e50-ab97-b7c2275a79eb": {
             "type": "text",
             "disabled": true,
             "settings": {
-              "text": "<p>Shop Summer Clearance for a limited time only.<\/p>",
+              "text": "<p><a href=\"\/collections\/sale\" title=\"Sale\">Shop Summer Clearance for a limited time only.<\/a><\/p>",
               "target_url_enabled": false,
               "target_url": "shopify:\/\/collections\/sale",
               "target_referrer_enabled": false,
@@ -141,11 +157,10 @@
               "target_device": "mobile"
             }
           },
-          "3bb205a6-23a2-4773-8337-90553efc6ef4": {
-            "type": "message",
+          "081ee534-0f49-44c4-a32e-30884d527f60": {
+            "type": "text",
             "settings": {
-              "show_wheel": true,
-              "message": "||amount|| until Free Domestic Shipping. Limited time only.",
+              "text": "<p>Free Returns on all US orders.<\/p>",
               "target_url_enabled": false,
               "target_url": "",
               "target_referrer_enabled": false,
@@ -156,8 +171,9 @@
           }
         },
         "block_order": [
+          "3bb205a6-23a2-4773-8337-90553efc6ef4",
           "a2acf12f-8bbb-4e50-ab97-b7c2275a79eb",
-          "3bb205a6-23a2-4773-8337-90553efc6ef4"
+          "081ee534-0f49-44c4-a32e-30884d527f60"
         ],
         "settings": {
           "bg_color": "#000000",
@@ -211,42 +227,6 @@
       },
       "popups": {
         "type": "popups",
-        "blocks": {
-          "popups-0": {
-            "type": "cookie",
-            "disabled": true,
-            "settings": {
-              "position": "popup-cookies--bottom",
-              "show_cookies_popup": true
-            }
-          },
-          "c4610457-7e72-4985-8f05-75c3e214d7e8": {
-            "type": "popup",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Summer2022_27.jpg",
-              "subheading": "",
-              "title": "Newsletter",
-              "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-              "button_text": "Join",
-              "button_color": "btn--neutral",
-              "bg_color": "#ffffff",
-              "text_color": "dark",
-              "newsletter_enable": true,
-              "enable_name": false,
-              "trigger": "always",
-              "target_url_enabled": false,
-              "target_url": "",
-              "target_referrer_enabled": false,
-              "target_referrer": "",
-              "target_device_enabled": false,
-              "target_device": "mobile"
-            }
-          }
-        },
-        "block_order": [
-          "popups-0",
-          "c4610457-7e72-4985-8f05-75c3e214d7e8"
-        ],
         "settings": {}
       }
     },

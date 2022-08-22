@@ -1,5 +1,12 @@
 <!-- /sections/section-collection-carousel.liquid -->
 
+{%- style -%}
+  #Collection--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
 {%- render 'products-layout' section: section -%}
 
 {% schema %}
@@ -91,6 +98,26 @@
           "type": "collection",
           "id": "featured_collection",
           "label": "Collection"
+        },
+        {
+          "type": "range",
+          "id": "padding_top",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Padding top",
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "padding_bottom",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "label": "Padding bottom",
+          "default": 0
         }
       ],
       "presets": [

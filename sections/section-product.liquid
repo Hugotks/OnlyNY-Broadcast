@@ -3,7 +3,16 @@
 {%- assign product = all_products[section.settings.home_product] | default: collections['all'].products[0] -%}
 {%- assign product = all_products[section.settings.home_product] -%}
 
-<div class="index-product"
+{%- style -%}
+  #Product--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+<div
+  id="Product--{{ section.id }}"
+  class="index-product section-padding"
   data-section-id="{{ section.id }}"
   data-section-type="product"
   data-tall-layout="false"
@@ -525,6 +534,26 @@
         "id": "enable_video_looping",
         "label": "Enable video looping",
         "default": false
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 0
       }
     ],
     "blocks": [

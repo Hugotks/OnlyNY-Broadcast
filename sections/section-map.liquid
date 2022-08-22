@@ -14,7 +14,15 @@
 
 {%- assign animation_anchor = '#map--' | append: section.id -%}
 
-<div class="index-map map-section grid--full homepage-columns js-overflow-container {{ section.settings.height }}{% if display_map %} map-section--display-map{% endif %} {% if section.settings.height == 'image-height' and section.settings.image == blank %} auto-height{% endif %}"
+{%- style -%}
+  #Map--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+<div id="Map--{{ section.id }}"
+  class="index-map section-padding map-section grid--full homepage-columns js-overflow-container {{ section.settings.height }}{% if display_map %} map-section--display-map{% endif %} {% if section.settings.height == 'image-height' and section.settings.image == blank %} auto-height{% endif %}"
   id="map--{{ section.id }}"
   data-section-id="{{ section.id }}"
   data-section-type="map"
@@ -243,6 +251,26 @@
         "id": "long",
         "label": "Longitude",
         "info": "Example: -123.139640"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 0
       }
     ],
     "presets": [

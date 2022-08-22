@@ -135,7 +135,7 @@
         "one": "and you have {{ count }} product in the cart",
         "other": "and you have {{ count }} products in the cart"
       },
-      "qualified_shipping_message": "Your order qualifies for free shipping"
+      "qualified_shipping_message": "Your order qualifies for free US shipping"
     },
     "shipping_calculator": {
       "estimate_shipping": "Estimate shipping",

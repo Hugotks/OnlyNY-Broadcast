@@ -1,17 +1,38 @@
 {
   "sections": {
+    "1646429316d3fd7f08": {
+      "type": "section-rich-text",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "text": "<p>City. Outdoors. Arts.<\/p>",
+        "text_size": 4,
+        "text_columns": 1,
+        "align_text": "text-center",
+        "align_button": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_color": "btn--neutral",
+        "button_style": "hero__btn btn btn--input btn--outline",
+        "height": "margin--large",
+        "width": "wrapper",
+        "text_color": "text-dark",
+        "bg_color": "#ffffff"
+      }
+    },
     "164642956110496885": {
       "type": "section-columns",
       "blocks": {
-        "f81cac69-a2b5-4d65-8062-7314ae0f29fb": {
+        "670e7ce5-42af-44a3-b6fe-16dd110d3b3e": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Summer2022_94.jpg",
+            "image": "shopify:\/\/shop_images\/Summer2022_132.jpg",
             "bg_position": "center-center",
-            "title": "Summer 2022",
+            "title": "Fall\/Winter 2022",
             "text": "",
             "button_text": "Shop Now",
-            "button_url": "shopify:\/\/collections\/summer-2022",
+            "button_url": "shopify:\/\/collections\/fall-winter-2022",
             "button_color": "btn--neutral",
             "button_style": "h5",
             "enable_video": false,
@@ -21,7 +42,7 @@
         "b9cf4acb-4c02-4681-af51-f80c764ea930": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/000046630005.jpg",
+            "image": "shopify:\/\/shop_images\/Summer2022_128.jpg",
             "bg_position": "center-center",
             "title": "New Arrivals",
             "text": "",
@@ -33,15 +54,30 @@
             "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
           }
         },
-        "dddb83e8-fd48-471f-9aa9-af5ce67c496a": {
+        "1c38b4c7-9ac7-4856-a920-ce231fbef379": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Summer2022_83.jpg",
+            "image": "shopify:\/\/shop_images\/Summer2022_119.jpg",
             "bg_position": "center-center",
-            "title": "Accessories",
+            "title": "Fall\/Winter Preview",
+            "text": "",
+            "button_text": "Newsstand",
+            "button_url": "shopify:\/\/blogs\/news\/fall-winter-2022-preview",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "f81cac69-a2b5-4d65-8062-7314ae0f29fb": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Summer2022_94.jpg",
+            "bg_position": "center-center",
+            "title": "Summer 2022",
             "text": "",
             "button_text": "Shop Now",
-            "button_url": "shopify:\/\/collections\/accessories",
+            "button_url": "shopify:\/\/collections\/summer-2022",
             "button_color": "btn--neutral",
             "button_style": "h5",
             "enable_video": false,
@@ -63,57 +99,10 @@
             "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
           }
         },
-        "1c38b4c7-9ac7-4856-a920-ce231fbef379": {
+        "dddb83e8-fd48-471f-9aa9-af5ce67c496a": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Only_NY_Summer_2022_Delivery_4_5.jpg",
-            "bg_position": "center-center",
-            "title": "Headwear",
-            "text": "",
-            "button_text": "Shop Now",
-            "button_url": "shopify:\/\/collections\/headwear",
-            "button_color": "btn--neutral",
-            "button_style": "h5",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
-        },
-        "64167604-968a-4533-b60b-6125eb41f452": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Summer2022_98.jpg",
-            "bg_position": "center-center",
-            "title": "Tees",
-            "text": "",
-            "button_text": "Shop Now",
-            "button_url": "",
-            "button_color": "btn--neutral",
-            "button_style": "h5",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
-        },
-        "670e7ce5-42af-44a3-b6fe-16dd110d3b3e": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SpringSummer22_25.jpg",
-            "bg_position": "center-center",
-            "title": "Shorts",
-            "text": "",
-            "button_text": "Shop Now",
-            "button_url": "shopify:\/\/collections\/shorts",
-            "button_color": "btn--neutral",
-            "button_style": "h5",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
-        },
-        "1b49880f-309c-4933-beda-6b05e2265f17": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Summer2022_71.jpg",
+            "image": "shopify:\/\/shop_images\/Summer2022_69.jpg",
             "bg_position": "center-center",
             "title": "Accessories",
             "text": "",
@@ -124,51 +113,15 @@
             "enable_video": false,
             "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
           }
-        },
-        "bc94a9a8-4d45-42b2-8e7c-1b538a3c03c4": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Summer2022_44.jpg",
-            "bg_position": "center-center",
-            "title": "Only NY BFC Soccer Jersey",
-            "text": "",
-            "button_text": "Shop Now",
-            "button_url": "shopify:\/\/products\/only-ny-bfc-soccer-jersey",
-            "button_color": "btn--neutral",
-            "button_style": "h5",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
-        },
-        "6d3f5e51-3d52-49a5-bc7f-541a6e84a192": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Summer22Del2_6.jpg",
-            "bg_position": "center-center",
-            "title": "Sweatshirts",
-            "text": "",
-            "button_text": "Shop Now",
-            "button_url": "shopify:\/\/collections\/sweatshirts",
-            "button_color": "btn--neutral",
-            "button_style": "h5",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
         }
       },
       "block_order": [
-        "f81cac69-a2b5-4d65-8062-7314ae0f29fb",
-        "b9cf4acb-4c02-4681-af51-f80c764ea930",
-        "dddb83e8-fd48-471f-9aa9-af5ce67c496a",
-        "aa079eb3-2829-420d-a730-7bee3f74f221",
-        "1c38b4c7-9ac7-4856-a920-ce231fbef379",
-        "64167604-968a-4533-b60b-6125eb41f452",
         "670e7ce5-42af-44a3-b6fe-16dd110d3b3e",
-        "1b49880f-309c-4933-beda-6b05e2265f17",
-        "bc94a9a8-4d45-42b2-8e7c-1b538a3c03c4",
-        "6d3f5e51-3d52-49a5-bc7f-541a6e84a192"
+        "b9cf4acb-4c02-4681-af51-f80c764ea930",
+        "1c38b4c7-9ac7-4856-a920-ce231fbef379",
+        "f81cac69-a2b5-4d65-8062-7314ae0f29fb",
+        "aa079eb3-2829-420d-a730-7bee3f74f221",
+        "dddb83e8-fd48-471f-9aa9-af5ce67c496a"
       ],
       "settings": {
         "title": "",
@@ -185,15 +138,14 @@
     "1646429896587acd94": {
       "type": "section-collection",
       "settings": {
-        "heading": "Featured items",
+        "heading": "Featured Items",
         "description": "",
         "text_alignment": "inline",
-        "link_text": "",
+        "link_text": "Shop All",
         "link_url": "shopify:\/\/collections",
         "button_color": "btn--black",
         "button_style": "h5",
         "featured_collection": "featured-homepage",
-        "limit": 2,
         "grid": 4,
         "rows": 2,
         "layout_mobile": "2"
@@ -202,45 +154,45 @@
     "1646429779a1a100e3": {
       "type": "section-columns",
       "blocks": {
+        "7de4f585-dd9a-4ebd-9f05-1079405be456": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Summer2022_102.jpg",
+            "bg_position": "center-center",
+            "title": "MTA Mesh Baseball Jersey",
+            "text": "",
+            "button_text": "Shop Now",
+            "button_url": "shopify:\/\/products\/mta-mesh-baseball-jersey",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
         "e3641da5-04a8-48bd-b1da-5cf4462e0c42": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/only-NY-7.14-17.jpg",
+            "image": "shopify:\/\/shop_images\/i.shgcdn.webp",
             "bg_position": "center-center",
-            "title": "NYC Parks McCarren Tank",
+            "title": "City Sights Crop T-Shirt",
             "text": "",
             "button_text": "Shop Now",
-            "button_url": "shopify:\/\/products\/nyc-parks-mccarren-track-crop-tank-top",
+            "button_url": "shopify:\/\/products\/city-sights-crop-t-shirt",
             "button_color": "btn--neutral",
             "button_style": "h5",
             "enable_video": false,
             "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
           }
         },
-        "9ec31205-e71e-46cd-ba9d-de0ead005f7c": {
+        "4a55ca1c-1712-412d-b568-3273726c554a": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Summer2022_95.jpg",
+            "image": "shopify:\/\/shop_images\/Summer2022_49a.jpg",
             "bg_position": "center-center",
-            "title": "Big Apple Mini Boat Tote",
+            "title": "Convertible Hiking Pants",
             "text": "",
             "button_text": "Shop Now",
-            "button_url": "shopify:\/\/products\/big-apple-mini-boat-tote",
-            "button_color": "btn--neutral",
-            "button_style": "h5",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
-        },
-        "5977d873-e08a-414c-9b77-a5cb5ee38e88": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Summer2022_58.jpg",
-            "bg_position": "center-center",
-            "title": "Ladybugs T-Shirt",
-            "text": "",
-            "button_text": "Shop Now",
-            "button_url": "shopify:\/\/products\/ladybugs-t-shirt",
+            "button_url": "shopify:\/\/products\/convertible-hiking-pants",
             "button_color": "btn--neutral",
             "button_style": "h5",
             "enable_video": false,
@@ -256,6 +208,36 @@
             "text": "",
             "button_text": "Shop Now",
             "button_url": "shopify:\/\/products\/community-t-shirt-cropped",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "bc2dacc9-9907-4e62-8a20-f780f2ce180f": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Only_NY_Summer_2022_Delivery_4_7.jpg",
+            "bg_position": "center-center",
+            "title": "Ramen Tote Bag",
+            "text": "",
+            "button_text": "Shop Now",
+            "button_url": "shopify:\/\/products\/ramen-tote-bag",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "5977d873-e08a-414c-9b77-a5cb5ee38e88": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Summer2022_58.jpg",
+            "bg_position": "center-center",
+            "title": "Ladybugs T-Shirt",
+            "text": "",
+            "button_text": "Shop Now",
+            "button_url": "shopify:\/\/products\/ladybugs-t-shirt",
             "button_color": "btn--neutral",
             "button_style": "h5",
             "enable_video": false,
@@ -306,82 +288,18 @@
             "enable_video": false,
             "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
           }
-        },
-        "4f2724bb-c808-4646-80fa-07b77de4cc42": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Summer2022_70.jpg",
-            "bg_position": "center-center",
-            "title": "Core Logo Socks",
-            "text": "",
-            "button_text": "Shop Now",
-            "button_url": "shopify:\/\/products\/core-logo-socks",
-            "button_color": "btn--neutral",
-            "button_style": "h5",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
-        },
-        "bc2dacc9-9907-4e62-8a20-f780f2ce180f": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Only_NY_Summer_2022_Delivery_4_7.jpg",
-            "bg_position": "center-center",
-            "title": "Ramen Tote Bag",
-            "text": "",
-            "button_text": "Shop Now",
-            "button_url": "shopify:\/\/products\/ramen-tote-bag",
-            "button_color": "btn--neutral",
-            "button_style": "h5",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
-        },
-        "53b030b4-62d1-4225-b1a7-49fb6024ded0": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Summer22Del2_6.jpg",
-            "bg_position": "center-center",
-            "title": "Paint Cans Hoodie",
-            "text": "",
-            "button_text": "Shop Now",
-            "button_url": "shopify:\/\/products\/paint-cans-hoodie",
-            "button_color": "btn--neutral",
-            "button_style": "h5",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
-        },
-        "e1c3fc96-7d0d-4404-9847-25f5777b1a22": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Summer2022_30.jpg",
-            "bg_position": "center-center",
-            "title": "City Life Mechanics Shirt",
-            "text": "",
-            "button_text": "Shop Now",
-            "button_url": "shopify:\/\/products\/city-life-mechanics-shirt",
-            "button_color": "btn--neutral",
-            "button_style": "h5",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
         }
       },
       "block_order": [
+        "7de4f585-dd9a-4ebd-9f05-1079405be456",
         "e3641da5-04a8-48bd-b1da-5cf4462e0c42",
-        "9ec31205-e71e-46cd-ba9d-de0ead005f7c",
-        "5977d873-e08a-414c-9b77-a5cb5ee38e88",
+        "4a55ca1c-1712-412d-b568-3273726c554a",
         "fdcafb0f-f409-41f5-bf2f-b30026e12154",
+        "bc2dacc9-9907-4e62-8a20-f780f2ce180f",
+        "5977d873-e08a-414c-9b77-a5cb5ee38e88",
         "de9e6231-213d-49ce-a883-3e1aa1c5ce6d",
         "fe2a0e94-cfff-42bc-b269-c02414d822cb",
-        "fec7cc64-d6ba-46a6-863a-fbcee526e017",
-        "4f2724bb-c808-4646-80fa-07b77de4cc42",
-        "bc2dacc9-9907-4e62-8a20-f780f2ce180f",
-        "53b030b4-62d1-4225-b1a7-49fb6024ded0",
-        "e1c3fc96-7d0d-4404-9847-25f5777b1a22"
+        "fec7cc64-d6ba-46a6-863a-fbcee526e017"
       ],
       "settings": {
         "title": "Shop Looks",
@@ -445,158 +363,11 @@
         "enable_image": true
       }
     },
-    "1646429316d3fd7f08": {
-      "type": "section-rich-text",
-      "disabled": true,
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "text": "<p>Only NY is an independent clothing brand driven and inspired by the City, Outdoors, and Arts. Founded in 2007, Only NY has organically grown into a globally established brand offering a wide range of street, sport, and outdoor apparel and accessories.<\/p>",
-        "text_size": 4,
-        "text_columns": 1,
-        "align_text": "text-left",
-        "align_button": "text-center",
-        "button_text": "",
-        "button_url": "",
-        "button_color": "btn--neutral",
-        "button_style": "hero__btn btn btn--input btn--outline",
-        "height": "margin--large",
-        "width": "wrapper",
-        "text_color": "text-dark",
-        "bg_color": "#ffffff"
-      }
-    },
-    "165514487728182bbd": {
-      "type": "section-hero",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/273051433_438183487967297_3421124777985196124_n.jpg",
-        "bg_position": "center-center",
-        "height": "screen-height-two-thirds",
-        "overlay_opacity": 0,
-        "overlay_color": "#000000",
-        "title": "NYC Collection.",
-        "description": "",
-        "flex_align": "align--middle-center",
-        "text_color": "text-light",
-        "transparent": true,
-        "link_text": "NYC Collection",
-        "link": "shopify:\/\/collections\/nyc-collection",
-        "button_color": "btn--white",
-        "button_style": "hero__btn btn btn--input btn--outline"
-      }
-    },
-    "16464306633ead36f5": {
-      "type": "section-rich-text",
-      "disabled": true,
-      "settings": {
-        "subheading": "Only NY for the City of New York™",
-        "title": "",
-        "text": "<p><strong>Only NY has proudly been an official license partner of the City of New York since 2015. These original municipal inspired collections are a homage to our city with a portion of the proceeds benefiting the City of New York. <\/strong><\/p><p><\/p><p><\/p><p><\/p><p><\/p>",
-        "text_size": 4,
-        "text_columns": 1,
-        "align_text": "text-left",
-        "align_button": "text-left",
-        "button_text": "",
-        "button_url": "",
-        "button_color": "btn--black",
-        "button_style": "caps--large",
-        "height": "margin--medium",
-        "width": "wrapper",
-        "text_color": "text-light",
-        "bg_color": "#000000"
-      }
-    },
-    "164643049508f1b2ec": {
-      "type": "section-columns",
-      "disabled": true,
-      "blocks": {
-        "b2e8489a-e1d8-41ff-942b-8bfcf7169dc3": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lighter.webp",
-            "bg_position": "center-center",
-            "title": "Summer 2022 Del 2 Looks",
-            "text": "",
-            "button_text": "View More",
-            "button_url": "shopify:\/\/blogs\/news\/summer-2022-delivery-2",
-            "button_color": "btn--neutral",
-            "button_style": "h5",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
-        },
-        "16464304953c4e1e19-1": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lighter-1.webp",
-            "bg_position": "center-center",
-            "title": "Summer 2022 Del 1 Looks",
-            "text": "",
-            "button_text": "View More",
-            "button_url": "shopify:\/\/blogs\/news\/summer-2022-delivery-1",
-            "button_color": "btn--neutral",
-            "button_style": "h5",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
-        },
-        "16464304953c4e1e19-2": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/SpringSummer22_137.jpg",
-            "bg_position": "center-center",
-            "title": "SS22 Delivery 6 Looks",
-            "text": "",
-            "button_text": "View More",
-            "button_url": "shopify:\/\/blogs\/news\/spring-summer-2022-delivery-6",
-            "button_color": "btn--neutral",
-            "button_style": "h5",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
-        }
-      },
-      "block_order": [
-        "b2e8489a-e1d8-41ff-942b-8bfcf7169dc3",
-        "16464304953c4e1e19-1",
-        "16464304953c4e1e19-2"
-      ],
-      "settings": {
-        "title": "Newsstand",
-        "bg_color": "#ffffff",
-        "align_title": "text-left",
-        "align_text": "text-left",
-        "width": "wrapper--none",
-        "columns": 3,
-        "equalize_height": true,
-        "photo_aspect_ratio": 1.2,
-        "enable_image": true
-      }
-    },
-    "1657131268d42fd4de": {
-      "type": "section-newsletter",
-      "disabled": true,
-      "settings": {
-        "title": "Newsletter",
-        "richtext": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>",
-        "enable_name": false,
-        "flex_align": "align--middle-center",
-        "text_color": "dark",
-        "button_color": "btn--neutral",
-        "height": "three-fifty-height-hero",
-        "width": "default",
-        "bg_position": "center-center",
-        "overlay_opacity": 0,
-        "overlay_color": "#000000"
-      }
-    },
     "165902901409817e8a": {
       "type": "section-blog",
-      "disabled": true,
       "settings": {
         "blog_name": "news",
-        "title": "",
+        "title": "Newsstand",
         "grid": 3,
         "rows": 1,
         "aspect_ratio": 0.7,
@@ -606,18 +377,32 @@
         "show_button": false,
         "show_comments": false
       }
+    },
+    "1660238185f4455ec2": {
+      "type": "apps",
+      "blocks": {
+        "8afb65cc-4837-466c-b679-8e5522990965": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "window._klOnsite = window._klOnsite || []; window._klOnsite.push(['openForm', 'XKXU8Y']);"
+          }
+        }
+      },
+      "block_order": [
+        "8afb65cc-4837-466c-b679-8e5522990965"
+      ],
+      "settings": {
+        "include_margins": false
+      }
     }
   },
   "order": [
+    "1646429316d3fd7f08",
     "164642956110496885",
     "1646429896587acd94",
     "1646429779a1a100e3",
     "16581666344fe7f81c",
-    "1646429316d3fd7f08",
-    "165514487728182bbd",
-    "16464306633ead36f5",
-    "164643049508f1b2ec",
-    "1657131268d42fd4de",
-    "165902901409817e8a"
+    "165902901409817e8a",
+    "1660238185f4455ec2"
   ]
 }

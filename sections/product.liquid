@@ -7,6 +7,13 @@
   endif
 -%}
 
+{%- style -%}
+  #template-product {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
 {%- assign selected_variant = product.selected_variant -%}
 {%- assign flag = 0 -%}
 
@@ -20,6 +27,7 @@
 {% endfor %}
 
 <div id="template-product"
+    class="section-padding"
     data-section-id="{{ section.id }}"
     data-section-type="product"
     data-product-handle="{{ product.handle }}"
@@ -711,6 +719,26 @@
         "type": "richtext",
         "id": "UK_EU_message",
         "label": "Message for EU/UK customers"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 0
       }
     ],
     "blocks": [

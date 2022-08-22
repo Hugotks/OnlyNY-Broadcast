@@ -14,45 +14,26 @@
         "bg_color": "#ffffff"
       }
     },
-    "165903048906953e3f": {
-      "type": "section-hero",
+    "1660235060e5ce7faf": {
+      "type": "apps",
+      "blocks": {
+        "341be258-19ab-4b9a-9e0f-f4ae9caa2951": {
+          "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/form-embed-block\/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "<div class=\"klaviyo-form-S7zPUM\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "341be258-19ab-4b9a-9e0f-f4ae9caa2951"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/icons.jpg",
-        "bg_position": "center-center",
-        "height": "image-height",
-        "overlay_opacity": 0,
-        "overlay_color": "#000",
-        "title": "",
-        "description": "",
-        "flex_align": "align--middle-center",
-        "text_color": "text-light",
-        "transparent": true,
-        "link_text": "",
-        "link": "",
-        "button_color": "btn--white",
-        "button_style": "hero__btn btn btn--large btn--outline"
-      }
-    },
-    "16590300691fce8c1a": {
-      "type": "section-newsletter",
-      "settings": {
-        "title": "Win a $500 Gift Card!",
-        "richtext": "<p>Enter your email for a chance to win a $500 Only NY gift card.<\/p>",
-        "enable_name": false,
-        "flex_align": "align--middle-center",
-        "text_color": "dark",
-        "button_color": "btn--neutral",
-        "height": "three-fifty-height-hero",
-        "width": "default",
-        "bg_position": "center-center",
-        "overlay_opacity": 0,
-        "overlay_color": "#000"
+        "include_margins": false
       }
     }
   },
   "order": [
     "main",
-    "165903048906953e3f",
-    "16590300691fce8c1a"
+    "1660235060e5ce7faf"
   ]
 }

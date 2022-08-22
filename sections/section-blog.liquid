@@ -3,9 +3,18 @@
 {%- assign blogLink = blogs[section.settings.blog_name].url | default: '#' -%}
 {%- assign blogTitle = section.settings.title -%}
 
-<section class="index-blog blog blog-section {% if blogTitle == blank %}blog--no-title{% endif %}" id="blog--{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="blog">
+{%- style -%}
+  #Blog--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+<section
+  id="Blog--{{ section.id }}"
+  class="section-padding index-blog blog blog-section {% if blogTitle == blank %}blog--no-title{% endif %}" id="blog--{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="blog">
   {% if blogTitle != blank %}
-    <h2 class="theme blog__title"><a href="{{ blogLink }}">{{ blogTitle }}</a></h2>
+    <h2 class="grid__heading text-left">{{ blogTitle }}</h2>
   {% endif %}
 
   {%- assign grid_list_strings = '' -%}
@@ -260,6 +269,26 @@
         "id": "show_comments",
         "label": "Show comment count",
         "default": false
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding top",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Padding bottom",
+        "default": 0
       }
     ],
     "presets": [

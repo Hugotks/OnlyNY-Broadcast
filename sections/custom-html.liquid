@@ -2,7 +2,16 @@
 {%- assign html = section.settings.html -%}
 {%- assign show_padding = section.settings.show_padding -%}
 
-<section class="custom-html-section {% if show_padding %}wrapper custom-html-section--padding {% endif %}" data-section-id="{{ section.id }}" data-section-type="custom-html">
+{%- style -%}
+  #CustomHtml--{{ section.id }} {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+<section 
+  id="CustomHtml--{{ section.id }}"
+  class="section-padding custom-html-section {% if show_padding %}wrapper custom-html-section--padding {% endif %}" data-section-id="{{ section.id }}" data-section-type="custom-html">
   {% comment %}
   HTML added through the Theme Editor renders on the next line. You can also add code before/after this comment.
   {% endcomment %}
@@ -24,6 +33,26 @@
       "id": "show_padding",
       "label": "Show padding",
       "default": true
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
     }
   ],
   "presets": [

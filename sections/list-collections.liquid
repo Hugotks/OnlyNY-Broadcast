@@ -26,7 +26,14 @@
   assign heading = section.settings.title
 %}
 
-<div class="index-list-collections" data-section-id="{{ section.id }}" data-section-type="list-collections">
+{%- style -%}
+  .index-list-collections {
+    --PT: {{ section.settings.padding_top }}px;
+    --PB: {{ section.settings.padding_bottom }}px;
+  }
+{%- endstyle -%}
+
+<div class="index-list-collections section-padding" data-section-id="{{ section.id }}" data-section-type="list-collections">
   {%- if heading != blank -%}
   <h2 class="grid__heading">{{ heading }}</h2>
   {%- endif -%}
@@ -130,6 +137,26 @@
         }
       ],
       "default": "carousel"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 0
     }
   ],
   "blocks": [
