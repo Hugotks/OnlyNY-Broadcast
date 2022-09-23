@@ -11,7 +11,9 @@
         "height": "margin--medium",
         "width": "wrapper",
         "text_color": "text-dark",
-        "bg_color": "#ffffff"
+        "bg_color": "#ffffff",
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "16535177579369025d": {
@@ -19,7 +21,7 @@
       "settings": {
         "subheading": "",
         "title": "",
-        "text": "<p>Only NY is comprised of a small team of creatives and knowledgeable professionals. We design and produce a wide range of limited edition men’s & unisex clothing inspired by the nuances of the city and the outdoors. Ongoing partnerships include The City of New York, MTA, PRO-Keds, and New York Magazine. Only NY operates flagship stores in the Lower East Side & Greenpoint as well as a large office\/warehouse in the South Bronx to accommodate the continued growth of the brand all under one roof.<\/p><p><strong>OPENINGS<\/strong><\/p><p><a href=\"https:\/\/www.linkedin.com\/jobs\/view\/2688911165\/?refId=U929jSiz3Pfk5ABc6K74Ug%3D%3D&trackingId=pxyxz7qhb5XCwqIuB47%2B1w%3D%3D\">Assistant General Manager<\/a> - New York<\/p><p>Please check our <a href=\"https:\/\/www.linkedin.com\/company\/only-ny-inc.\" target=\"_blank\">LinkedIn<\/a> page for all current Career openings.<\/p>",
+        "text": "<p>Only NY is comprised of a small team of creatives and knowledgeable professionals. We design and produce a wide range of limited edition men’s & unisex clothing inspired by the nuances of the city and the outdoors. Ongoing partnerships include The City of New York, MTA, PRO-Keds, and New York Magazine. Only NY operates flagship stores in the Lower East Side & Greenpoint as well as a large office\/warehouse in the South Bronx to accommodate the continued growth of the brand all under one roof.<\/p><p><strong>OPENINGS<\/strong><\/p><p>Please check our <a href=\"https:\/\/www.linkedin.com\/company\/only-ny-inc.\" target=\"_blank\">LinkedIn<\/a> page for all current Career openings.<\/p>",
         "text_size": 1,
         "text_columns": 1,
         "align_text": "text-left",
@@ -31,7 +33,9 @@
         "height": "",
         "width": "wrapper",
         "text_color": "text-dark",
-        "bg_color": "#ffffff"
+        "bg_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },

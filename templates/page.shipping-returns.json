@@ -11,7 +11,9 @@
         "height": "margin--medium",
         "width": "wrapper",
         "text_color": "text-dark",
-        "bg_color": "#ffffff"
+        "bg_color": "#ffffff",
+        "padding_top": 30,
+        "padding_bottom": 29
       }
     },
     "1649440455e41aaad8": {
@@ -39,7 +41,9 @@
         "9b979525-59b8-4dc2-8fa9-9891482ba103"
       ],
       "settings": {
-        "title": "General"
+        "title": "General",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "16494401065c87ad3f": {
@@ -85,7 +89,9 @@
         "1649440106e85c959d-3"
       ],
       "settings": {
-        "title": "Returns & Exchanges"
+        "title": "Returns & Exchanges",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "1649440223438ef8d0": {
@@ -113,7 +119,9 @@
         "1649440223e06ba886-1"
       ],
       "settings": {
-        "title": "Shipping & Delivery"
+        "title": "Shipping & Delivery",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "164944052296e255d6": {
@@ -150,7 +158,9 @@
         "7026c759-715a-44f4-ae18-9e0a5c0960c2"
       ],
       "settings": {
-        "title": "Domestic (USA)"
+        "title": "Domestic (USA)",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "16494409638c2d7aa8": {
@@ -187,7 +197,9 @@
         "08d5c6ca-d4ee-4751-80e5-eb357fc1920e"
       ],
       "settings": {
-        "title": "International"
+        "title": "International",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },

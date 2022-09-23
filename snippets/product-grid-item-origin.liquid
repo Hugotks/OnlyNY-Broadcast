@@ -83,7 +83,7 @@
 {%- endif -%}
 {%- assign current_variant = product.first_available_variant -%}
 
-{%- assign product_url = product.url | within: collection -%}
+{%- assign product_url = product.selected_or_first_available_variant.url | within: collection -%}
 
 {%- capture item_unique -%}product-item--{{ section.id }}-{{ index }}{%- endcapture -%}
 {%- assign animation_anchor_default = item_unique | prepend: '.' -%}

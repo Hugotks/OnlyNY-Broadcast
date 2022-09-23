@@ -12,7 +12,9 @@
         "height": "margin--medium",
         "width": "wrapper",
         "text_color": "text-dark",
-        "bg_color": "#ffffff"
+        "bg_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "1655148430303f07f0": {
@@ -23,7 +25,7 @@
         "bg_position": "center-center",
         "height": "image-height",
         "overlay_opacity": 0,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "title": "",
         "description": "",
         "flex_align": "align--middle-center",
@@ -52,7 +54,9 @@
         "height": "margin--medium",
         "width": "wrapper",
         "text_color": "text-dark",
-        "bg_color": "#ffffff"
+        "bg_color": "#ffffff",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     }
   },

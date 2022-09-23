@@ -87,7 +87,11 @@
           {% when 'newsletter' %}
             <div class="footer__block grid__item {{ footer_column_width }}" {{ block.shopify_attributes }}>
               <h2 class="h5 footer__block__title">{{ 'layout.footer.newsletter_title' | t }}</h2>
-              {%- render 'newsletter-form' form_id: 'contact-newsletter-footer', show_name: block.settings.enable_name, field_id: 'email_input_footer', button_id: 'subscribe' -%}
+              {% if block.settings.html != blank %}
+                {{ block.settings.html }}
+              {% else %}
+                {%- render 'newsletter-form' form_id: 'contact-newsletter-footer', show_name: block.settings.enable_name, field_id: 'email_input_footer', button_id: 'subscribe' -%}
+              {% endif %}
               <div class="rte footer__newsletter__text">
                 {{ block.settings.richtext }}
               </div>
@@ -404,6 +408,11 @@
           "id": "enable_name",
           "label": "Show name field",
           "default": false
+        },
+        {
+          "id": "html",
+          "type": "html",
+          "label": "Custom form embed"
         }
       ]
     },

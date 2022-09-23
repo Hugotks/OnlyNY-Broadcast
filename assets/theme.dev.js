@@ -9451,6 +9451,41 @@
       this.flkty = new FlickityFade(this.slideshow, flickityOptions);
       this.flkty.resize();
 
+      if (isiOS()) {
+        this.flkty.on('dragStart', () => {
+          document.ontouchmove = () => false;
+        });
+        this.flkty.on('dragEnd', () => {
+          document.ontouchmove = () => true;
+        });
+        
+        // just in case the dragEnd event doesn't fire:
+        document.body.addEventListener('touchstart', (ev) => {
+            document.ontouchmove = () => true;
+        });
+      }
+      
+      function isiOS() {
+        return [
+          'iPad Simulator',
+          'iPhone Simulator',
+          'iPod Simulator',
+          'iPad',
+          'iPhone',
+          'iPod'
+        ].includes(navigator.platform)
+        // iPad on iOS 13 detection
+        || (navigator.userAgent.includes("Mac") && "ontouchend" in document);
+      }      
+      
+      // window.addEventListener('resize', () => {
+      //   if (this.flkty.isAnimating) {
+      //     this.flkty.resizeQueued = true;
+      //   } else {
+      //     this.flkty.resize();
+      //   }
+      // });
+
 
       if (document.querySelector('[data-selected]')) {
         this.flkty.select(parseInt(document.querySelector('[data-selected]').dataset.selected) - 1);
@@ -9492,6 +9527,11 @@
       });
 
       this.flkty.on('settle', function () {
+        if (instance.flkty.resizeQueued) {
+          instance.flkty.resizeQueued = false;
+          instance.flkty.resize();
+        }
+        
         const currentMedia = this.selectedElement;
         const otherMedia = Array.prototype.filter.call(currentMedia.parentNode.children, function (child) {
           return child !== currentMedia;
@@ -10513,38 +10553,41 @@
             container.innerHTML = pickupAvailabilityHTML;
 
             this.drawer = this.container.querySelector(selectors$D.drawer);
-            // Clone Pickup drawer and append it to the end of <body>
-            this.clone = this.drawer.cloneNode(true);
-            this.body.appendChild(this.clone);
 
-            // Delete the original instance of pickup drawer
-            container.removeChild(this.drawer);
-
-            this.drawer = this.body.querySelector(selectors$D.drawer);
-            this.drawerBody = this.body.querySelector(selectors$D.drawerBody);
-            this.buttonDrawerOpen = this.body.querySelector(selectors$D.drawerOpen);
-            this.buttonDrawerClose = this.body.querySelectorAll(selectors$D.drawerClose);
-
-            if (this.buttonDrawerOpen) {
-              this.buttonDrawerOpen.addEventListener('click', () => {
-                this.openDrawer();
-
-                window.accessibility.lastElement = this.buttonDrawerOpen;
-              });
-            }
-
-            if (this.buttonDrawerClose.length) {
-              this.buttonDrawerClose.forEach((element) => {
-                element.addEventListener('click', () => this.closeDrawer());
-              });
-            }
-
-            this.drawer.addEventListener('keyup', (evt) => {
-              if (evt.which !== window.theme.keyboardKeys.ESCAPE) {
-                return;
+            if (this.drawer) {
+              // Clone Pickup drawer and append it to the end of <body>
+              this.clone = this.drawer.cloneNode(true);
+              this.body.appendChild(this.clone);
+  
+              // Delete the original instance of pickup drawer
+              container.removeChild(this.drawer);
+  
+              this.drawer = this.body.querySelector(selectors$D.drawer);
+              this.drawerBody = this.body.querySelector(selectors$D.drawerBody);
+              this.buttonDrawerOpen = this.body.querySelector(selectors$D.drawerOpen);
+              this.buttonDrawerClose = this.body.querySelectorAll(selectors$D.drawerClose);
+  
+              if (this.buttonDrawerOpen) {
+                this.buttonDrawerOpen.addEventListener('click', () => {
+                  this.openDrawer();
+  
+                  window.accessibility.lastElement = this.buttonDrawerOpen;
+                });
               }
-              this.closeDrawer();
-            });
+  
+              if (this.buttonDrawerClose.length) {
+                this.buttonDrawerClose.forEach((element) => {
+                  element.addEventListener('click', () => this.closeDrawer());
+                });
+              }
+  
+              this.drawer.addEventListener('keyup', (evt) => {
+                if (evt.which !== window.theme.keyboardKeys.ESCAPE) {
+                  return;
+                }
+                this.closeDrawer();
+              });
+            }
           })
           .catch((e) => {
             console.error(e);

@@ -1,48 +1,121 @@
 {
   "sections": {
-    "1646429316d3fd7f08": {
-      "type": "section-rich-text",
-      "disabled": true,
-      "settings": {
-        "subheading": "",
-        "title": "",
-        "text": "<p>City. Outdoors. Arts.<\/p>",
-        "text_size": 4,
-        "text_columns": 1,
-        "align_text": "text-center",
-        "align_button": "text-center",
-        "button_text": "",
-        "button_url": "",
-        "button_color": "btn--neutral",
-        "button_style": "hero__btn btn btn--input btn--outline",
-        "height": "margin--large",
-        "width": "wrapper",
-        "text_color": "text-dark",
-        "bg_color": "#ffffff"
-      }
-    },
     "164642956110496885": {
       "type": "section-columns",
       "blocks": {
-        "670e7ce5-42af-44a3-b6fe-16dd110d3b3e": {
+        "ea279931-18b9-4117-9b9d-9a3633365a18": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Summer2022_132.jpg",
+            "image": "shopify:\/\/shop_images\/FALLWINTER22_81.jpg",
             "bg_position": "center-center",
-            "title": "Fall\/Winter 2022",
+            "title": "NYC Collection",
             "text": "",
             "button_text": "Shop Now",
-            "button_url": "shopify:\/\/collections\/fall-winter-2022",
+            "button_url": "shopify:\/\/collections\/nyc-collection",
             "button_color": "btn--neutral",
             "button_style": "h5",
             "enable_video": false,
             "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
           }
         },
-        "b9cf4acb-4c02-4681-af51-f80c764ea930": {
+        "e9281ed9-6e9e-4237-96f9-32997aed62a8": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Summer2022_128.jpg",
+            "image": "shopify:\/\/shop_images\/FALLWINTER22_75.jpg",
+            "bg_position": "center-center",
+            "title": "",
+            "text": "",
+            "button_text": "",
+            "button_url": "https:\/\/onlyny.com\/blogs\/news\/sample-sale-2022",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "51aa4662-85b2-4abb-87ff-ae894ee6ac2f": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FALLWINTER22_91a.jpg",
+            "bg_position": "center-center",
+            "title": "New Arrivals",
+            "text": "",
+            "button_text": "Shop Now",
+            "button_url": "https:\/\/onlyny.com\/collections\/new-arrivals",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "8dd57145-04b6-451c-b8a3-ca0fe5cb353d": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FALLWINTER22_85.jpg",
+            "bg_position": "center-center",
+            "title": "NYC Collection",
+            "text": "",
+            "button_text": "Shop Now",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "c634c524-5c3f-4b41-8fb6-0ff27ffe1a8a": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FALLWINTER22_62.jpg",
+            "bg_position": "center-center",
+            "title": "Only NY x Manhattan Portage",
+            "text": "",
+            "button_text": "Shop Collection",
+            "button_url": "shopify:\/\/collections\/manhattan-portage",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "3a8e4565-f9ee-4455-bf49-adf3aa6adb16": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FALLWINTER22_44a_505c01c0-4432-4bf7-8a83-292f80eea96e.jpg",
+            "bg_position": "center-center",
+            "title": "Only NY x Manhattan Portage",
+            "text": "",
+            "button_text": "Shop Now",
+            "button_url": "shopify:\/\/collections\/manhattan-portage",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "670e7ce5-42af-44a3-b6fe-16dd110d3b3e": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fallwinter22_74a.jpg",
+            "bg_position": "center-center",
+            "title": "Sample Sale",
+            "text": "",
+            "button_text": "Sign Up",
+            "button_url": "shopify:\/\/pages\/sample-sale",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "885ac40c-b09d-4c8b-9e63-016df735dec3": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FALLWINTER22_55.jpg",
             "bg_position": "center-center",
             "title": "New Arrivals",
             "text": "",
@@ -54,15 +127,63 @@
             "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
           }
         },
-        "1c38b4c7-9ac7-4856-a920-ce231fbef379": {
+        "c8ce168b-4fd3-41ef-9665-edbef4074f87": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FALLWINTER22_64.jpg",
+            "bg_position": "center-center",
+            "title": "Manhattan Portage",
+            "text": "",
+            "button_text": "Shop Now",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "04474eae-ce48-4f43-9f16-5f5296893823": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FALLWINTER22_71.jpg",
+            "bg_position": "center-center",
+            "title": "Only NY x Manhattan Portage",
+            "text": "",
+            "button_text": "Shop Now",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "4043b6ca-656a-4854-8251-ff52069078ec": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FALLWINTER22_70.jpg",
+            "bg_position": "center-center",
+            "title": "New Arrivals",
+            "text": "",
+            "button_text": "Manhattan Portage",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "c8b7a2ae-1f3a-49d8-8a8c-b32665a67f45": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Summer2022_119.jpg",
+            "image": "shopify:\/\/shop_images\/FALLWINTER22_61.jpg",
             "bg_position": "center-center",
-            "title": "Fall\/Winter Preview",
+            "title": "Fall\/Winter 2022",
             "text": "",
-            "button_text": "Newsstand",
-            "button_url": "shopify:\/\/blogs\/news\/fall-winter-2022-preview",
+            "button_text": "Shop Now",
+            "button_url": "shopify:\/\/collections\/fall-winter-2022",
             "button_color": "btn--neutral",
             "button_style": "h5",
             "enable_video": false,
@@ -72,12 +193,12 @@
         "f81cac69-a2b5-4d65-8062-7314ae0f29fb": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Summer2022_94.jpg",
+            "image": "shopify:\/\/shop_images\/Summer2022_106.jpg",
             "bg_position": "center-center",
-            "title": "Summer 2022",
+            "title": "MTA Collection",
             "text": "",
             "button_text": "Shop Now",
-            "button_url": "shopify:\/\/collections\/summer-2022",
+            "button_url": "shopify:\/\/collections\/mta-collection",
             "button_color": "btn--neutral",
             "button_style": "h5",
             "enable_video": false,
@@ -86,8 +207,9 @@
         },
         "aa079eb3-2829-420d-a730-7bee3f74f221": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/only-NY-7.14-37.jpg",
+            "image": "shopify:\/\/shop_images\/SpringSummer22_73.jpg",
             "bg_position": "center-center",
             "title": "NYC Collection",
             "text": "",
@@ -101,6 +223,7 @@
         },
         "dddb83e8-fd48-471f-9aa9-af5ce67c496a": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Summer2022_69.jpg",
             "bg_position": "center-center",
@@ -116,9 +239,18 @@
         }
       },
       "block_order": [
+        "ea279931-18b9-4117-9b9d-9a3633365a18",
+        "e9281ed9-6e9e-4237-96f9-32997aed62a8",
+        "51aa4662-85b2-4abb-87ff-ae894ee6ac2f",
+        "8dd57145-04b6-451c-b8a3-ca0fe5cb353d",
+        "c634c524-5c3f-4b41-8fb6-0ff27ffe1a8a",
+        "3a8e4565-f9ee-4455-bf49-adf3aa6adb16",
         "670e7ce5-42af-44a3-b6fe-16dd110d3b3e",
-        "b9cf4acb-4c02-4681-af51-f80c764ea930",
-        "1c38b4c7-9ac7-4856-a920-ce231fbef379",
+        "885ac40c-b09d-4c8b-9e63-016df735dec3",
+        "c8ce168b-4fd3-41ef-9665-edbef4074f87",
+        "04474eae-ce48-4f43-9f16-5f5296893823",
+        "4043b6ca-656a-4854-8251-ff52069078ec",
+        "c8b7a2ae-1f3a-49d8-8a8c-b32665a67f45",
         "f81cac69-a2b5-4d65-8062-7314ae0f29fb",
         "aa079eb3-2829-420d-a730-7bee3f74f221",
         "dddb83e8-fd48-471f-9aa9-af5ce67c496a"
@@ -132,7 +264,9 @@
         "columns": 2,
         "equalize_height": true,
         "photo_aspect_ratio": 1.2,
-        "enable_image": true
+        "enable_image": true,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "1646429896587acd94": {
@@ -142,42 +276,104 @@
         "description": "",
         "text_alignment": "inline",
         "link_text": "Shop All",
-        "link_url": "shopify:\/\/collections",
+        "link_url": "shopify:\/\/collections\/shop-all",
         "button_color": "btn--black",
         "button_style": "h5",
         "featured_collection": "featured-homepage",
         "grid": 4,
         "rows": 2,
-        "layout_mobile": "2"
+        "layout_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 50
       }
     },
     "1646429779a1a100e3": {
       "type": "section-columns",
       "blocks": {
-        "7de4f585-dd9a-4ebd-9f05-1079405be456": {
+        "85b121c7-a135-43ec-9384-62368d110b61": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Summer2022_102.jpg",
+            "image": "shopify:\/\/shop_images\/FALLWINTER22_84.jpg",
             "bg_position": "center-center",
-            "title": "MTA Mesh Baseball Jersey",
+            "title": "NYC Parks Ginkgo Fest T-Shirt",
             "text": "",
             "button_text": "Shop Now",
-            "button_url": "shopify:\/\/products\/mta-mesh-baseball-jersey",
+            "button_url": "shopify:\/\/products\/nyc-parks-ginkgo-fest-t-shirt",
             "button_color": "btn--neutral",
             "button_style": "h5",
             "enable_video": false,
             "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
           }
         },
-        "e3641da5-04a8-48bd-b1da-5cf4462e0c42": {
+        "3a2a5cc8-7934-4993-8273-15561885af51": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/i.shgcdn.webp",
+            "image": "shopify:\/\/shop_images\/FALLWINTER22_53.jpg",
             "bg_position": "center-center",
-            "title": "City Sights Crop T-Shirt",
+            "title": "Leopard Knit Polo",
             "text": "",
             "button_text": "Shop Now",
-            "button_url": "shopify:\/\/products\/city-sights-crop-t-shirt",
+            "button_url": "shopify:\/\/products\/leopard-knit-polo",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "93984145-30fa-4994-865c-185c1b11c5e4": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FALLWINTER22_63.jpg",
+            "bg_position": "center-center",
+            "title": "Only NY x Manhattan Portage Chelsea Drum Bag",
+            "text": "",
+            "button_text": "Shop Now",
+            "button_url": "https:\/\/onlyny.com\/products\/only-ny-x-manhattan-portage-chelsea-drum-bag?variant=39806576623700",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "74f4eb9e-4c68-40e0-952a-1ed73832560c": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FALLWINTER22_89.jpg",
+            "bg_position": "center-center",
+            "title": "NYC City of New York Sweatpants",
+            "text": "",
+            "button_text": "Shop Now",
+            "button_url": "shopify:\/\/products\/nyc-city-of-new-york-sweatpants",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "d3a7faf1-6920-4f65-8142-7da98fd2a006": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FALLWINTER22_54.jpg",
+            "bg_position": "center-center",
+            "title": "Colorblock Varsity Sweater",
+            "text": "",
+            "button_text": "Shop Now",
+            "button_url": "shopify:\/\/products\/colorblock-varsity-sweater",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "e84dd56d-5d7b-465a-8ba0-a260aa702d0a": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FALLWINTER22_60.jpg",
+            "bg_position": "center-center",
+            "title": "Clear Supply Tote",
+            "text": "",
+            "button_text": "Shop Now",
+            "button_url": "shopify:\/\/products\/clear-supply-tote",
             "button_color": "btn--neutral",
             "button_style": "h5",
             "enable_video": false,
@@ -187,12 +383,42 @@
         "4a55ca1c-1712-412d-b568-3273726c554a": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Summer2022_49a.jpg",
+            "image": "shopify:\/\/shop_images\/Summer2022_145.jpg",
             "bg_position": "center-center",
-            "title": "Convertible Hiking Pants",
+            "title": "Shop T-Shirt",
             "text": "",
             "button_text": "Shop Now",
-            "button_url": "shopify:\/\/products\/convertible-hiking-pants",
+            "button_url": "shopify:\/\/products\/shop-t-shirt",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "ce3ac4f4-4afe-4361-b499-4381d8aa82b9": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FALLWINTER22_66.jpg",
+            "bg_position": "center-center",
+            "title": "Only NY x Manhattan Portage Nylon Tote Bag",
+            "text": "",
+            "button_text": "Shop Now",
+            "button_url": "shopify:\/\/products\/only-ny-x-manhattan-portage-nylon-tote-bag",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "e3641da5-04a8-48bd-b1da-5cf4462e0c42": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Summer2022_133.jpg",
+            "bg_position": "center-center",
+            "title": "Ripstop Shirt Jacket",
+            "text": "",
+            "button_text": "Shop Now",
+            "button_url": "shopify:\/\/products\/ripstop-shirt-jacket",
             "button_color": "btn--neutral",
             "button_style": "h5",
             "enable_video": false,
@@ -201,28 +427,62 @@
         },
         "fdcafb0f-f409-41f5-bf2f-b30026e12154": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Summer2022_86.jpg",
+            "image": "shopify:\/\/shop_images\/Summer2022_119.jpg",
             "bg_position": "center-center",
-            "title": "Community Crop T-Shirt",
+            "title": "Double Knee Denim Work Pants",
             "text": "",
             "button_text": "Shop Now",
-            "button_url": "shopify:\/\/products\/community-t-shirt-cropped",
+            "button_url": "shopify:\/\/products\/double-knee-denim-work-pants",
             "button_color": "btn--neutral",
             "button_style": "h5",
             "enable_video": false,
             "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
           }
         },
-        "bc2dacc9-9907-4e62-8a20-f780f2ce180f": {
+        "b5a4eacf-1eb3-4078-8464-12a14dbeac61": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Only_NY_Summer_2022_Delivery_4_7.jpg",
+            "image": "shopify:\/\/shop_images\/FALLWINTER22_82.jpg",
             "bg_position": "center-center",
-            "title": "Ramen Tote Bag",
+            "title": "NYC Parks Tennis Nylon Pullover",
             "text": "",
             "button_text": "Shop Now",
-            "button_url": "shopify:\/\/products\/ramen-tote-bag",
+            "button_url": "",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "9d31ae64-6978-484e-bf78-e0f8e0deafa8": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FALLWINTER22_65.jpg",
+            "bg_position": "center-center",
+            "title": "Only NY x Manhattan Portage Coin Pouch",
+            "text": "",
+            "button_text": "Shop Now",
+            "button_url": "https:\/\/onlyny.com\/products\/only-ny-x-manhattan-portage-coin-pouch?variant=39806576885844",
+            "button_color": "btn--neutral",
+            "button_style": "h5",
+            "enable_video": false,
+            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "7de4f585-dd9a-4ebd-9f05-1079405be456": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Summer2022_148.jpg",
+            "bg_position": "center-center",
+            "title": "MTA Logo Longbill Hat",
+            "text": "",
+            "button_text": "Shop Now",
+            "button_url": "shopify:\/\/products\/mta-logo-longbill-hat",
             "button_color": "btn--neutral",
             "button_style": "h5",
             "enable_video": false,
@@ -231,58 +491,30 @@
         },
         "5977d873-e08a-414c-9b77-a5cb5ee38e88": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Summer2022_58.jpg",
+            "image": "shopify:\/\/shop_images\/SpringSummer22_173.jpg",
             "bg_position": "center-center",
-            "title": "Ladybugs T-Shirt",
+            "title": "Crochet Bucket Hat",
             "text": "",
             "button_text": "Shop Now",
-            "button_url": "shopify:\/\/products\/ladybugs-t-shirt",
+            "button_url": "shopify:\/\/products\/crochet-bucket-hat",
             "button_color": "btn--neutral",
             "button_style": "h5",
             "enable_video": false,
             "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
           }
         },
-        "de9e6231-213d-49ce-a883-3e1aa1c5ce6d": {
+        "bc2dacc9-9907-4e62-8a20-f780f2ce180f": {
           "type": "text_block",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Summer2022_9.jpg",
+            "image": "shopify:\/\/shop_images\/Summer2022_69.jpg",
             "bg_position": "center-center",
-            "title": "Doubleknee Carpenter Pants",
+            "title": "Lodge Jumbo Tote Bag",
             "text": "",
             "button_text": "Shop Now",
-            "button_url": "shopify:\/\/products\/doubleknee-carpenter-pants",
-            "button_color": "btn--neutral",
-            "button_style": "h5",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
-        },
-        "fe2a0e94-cfff-42bc-b269-c02414d822cb": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Only_NY_Summer_2022_Delivery_3_85.jpg",
-            "bg_position": "center-center",
-            "title": "Sportswear Nylon Vest",
-            "text": "",
-            "button_text": "Shop Now",
-            "button_url": "",
-            "button_color": "btn--neutral",
-            "button_style": "h5",
-            "enable_video": false,
-            "video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
-        },
-        "fec7cc64-d6ba-46a6-863a-fbcee526e017": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Summer2022_50.jpg",
-            "bg_position": "center-center",
-            "title": "Trek L\/S T-Shirt",
-            "text": "",
-            "button_text": "Shop Now",
-            "button_url": "",
+            "button_url": "shopify:\/\/products\/lodge-xxl-tote-bag",
             "button_color": "btn--neutral",
             "button_style": "h5",
             "enable_video": false,
@@ -291,15 +523,21 @@
         }
       },
       "block_order": [
-        "7de4f585-dd9a-4ebd-9f05-1079405be456",
-        "e3641da5-04a8-48bd-b1da-5cf4462e0c42",
+        "85b121c7-a135-43ec-9384-62368d110b61",
+        "3a2a5cc8-7934-4993-8273-15561885af51",
+        "93984145-30fa-4994-865c-185c1b11c5e4",
+        "74f4eb9e-4c68-40e0-952a-1ed73832560c",
+        "d3a7faf1-6920-4f65-8142-7da98fd2a006",
+        "e84dd56d-5d7b-465a-8ba0-a260aa702d0a",
         "4a55ca1c-1712-412d-b568-3273726c554a",
+        "ce3ac4f4-4afe-4361-b499-4381d8aa82b9",
+        "e3641da5-04a8-48bd-b1da-5cf4462e0c42",
         "fdcafb0f-f409-41f5-bf2f-b30026e12154",
-        "bc2dacc9-9907-4e62-8a20-f780f2ce180f",
+        "b5a4eacf-1eb3-4078-8464-12a14dbeac61",
+        "9d31ae64-6978-484e-bf78-e0f8e0deafa8",
+        "7de4f585-dd9a-4ebd-9f05-1079405be456",
         "5977d873-e08a-414c-9b77-a5cb5ee38e88",
-        "de9e6231-213d-49ce-a883-3e1aa1c5ce6d",
-        "fe2a0e94-cfff-42bc-b269-c02414d822cb",
-        "fec7cc64-d6ba-46a6-863a-fbcee526e017"
+        "bc2dacc9-9907-4e62-8a20-f780f2ce180f"
       ],
       "settings": {
         "title": "Shop Looks",
@@ -310,7 +548,9 @@
         "columns": 3,
         "equalize_height": true,
         "photo_aspect_ratio": 1.3,
-        "enable_image": true
+        "enable_image": true,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "16581666344fe7f81c": {
@@ -360,11 +600,14 @@
         "columns": 2,
         "equalize_height": true,
         "photo_aspect_ratio": 1.2,
-        "enable_image": true
+        "enable_image": true,
+        "padding_top": 40,
+        "padding_bottom": 80
       }
     },
     "165902901409817e8a": {
       "type": "section-blog",
+      "disabled": true,
       "settings": {
         "blog_name": "news",
         "title": "Newsstand",
@@ -375,7 +618,9 @@
         "show_author": false,
         "show_date": false,
         "show_button": false,
-        "show_comments": false
+        "show_comments": false,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "1660238185f4455ec2": {
@@ -394,15 +639,25 @@
       "settings": {
         "include_margins": false
       }
+    },
+    "166137473207fea6ea": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "html": "<video autoplay=\"true\" controls=\"true\" muted=\"true\" style=\"width: 100%; height: auto\" src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/100f9d7d08de43f6a7c1f3889b5689f0.mp4\"><\/video>",
+        "show_padding": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
-    "1646429316d3fd7f08",
     "164642956110496885",
     "1646429896587acd94",
     "1646429779a1a100e3",
     "16581666344fe7f81c",
     "165902901409817e8a",
-    "1660238185f4455ec2"
+    "1660238185f4455ec2",
+    "166137473207fea6ea"
   ]
 }

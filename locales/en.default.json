@@ -135,13 +135,13 @@
         "one": "and you have {{ count }} product in the cart",
         "other": "and you have {{ count }} products in the cart"
       },
-      "qualified_shipping_message": "Your order qualifies for free US shipping"
+      "qualified_shipping_message": "Your order qualifies for free US shipping & returns."
     },
     "shipping_calculator": {
       "estimate_shipping": "Estimate shipping",
       "calculate_shipping": "Calculate shipping",
       "calculating": "Calculating...",
-      "no_shipping_available": "We do not ship to this destination."
+      "no_shipping_available": "Sorry, we do not ship to this destination."
     }
   },
   "collections": {

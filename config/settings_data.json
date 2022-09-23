@@ -131,11 +131,35 @@
       "announcement": {
         "type": "announcement",
         "blocks": {
+          "081ee534-0f49-44c4-a32e-30884d527f60": {
+            "type": "text",
+            "settings": {
+              "text": "<p>Free Returns on all US orders.<\/p>",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          },
           "3bb205a6-23a2-4773-8337-90553efc6ef4": {
             "type": "message",
             "settings": {
               "show_wheel": true,
               "message": "||amount|| until Free US Shipping.",
+              "target_url_enabled": false,
+              "target_url": "",
+              "target_referrer_enabled": false,
+              "target_referrer": "",
+              "target_device_enabled": false,
+              "target_device": "mobile"
+            }
+          },
+          "63a465da-e369-48c5-8eec-c2b3d1d32ae5": {
+            "type": "text",
+            "settings": {
+              "text": "<p><a href=\"\/collections\/new-arrivals\" title=\"New Arrivals\">Shop New Arrivals.<\/a><\/p>",
               "target_url_enabled": false,
               "target_url": "",
               "target_referrer_enabled": false,
@@ -156,30 +180,19 @@
               "target_device_enabled": false,
               "target_device": "mobile"
             }
-          },
-          "081ee534-0f49-44c4-a32e-30884d527f60": {
-            "type": "text",
-            "settings": {
-              "text": "<p>Free Returns on all US orders.<\/p>",
-              "target_url_enabled": false,
-              "target_url": "",
-              "target_referrer_enabled": false,
-              "target_referrer": "",
-              "target_device_enabled": false,
-              "target_device": "mobile"
-            }
           }
         },
         "block_order": [
+          "081ee534-0f49-44c4-a32e-30884d527f60",
           "3bb205a6-23a2-4773-8337-90553efc6ef4",
-          "a2acf12f-8bbb-4e50-ab97-b7c2275a79eb",
-          "081ee534-0f49-44c4-a32e-30884d527f60"
+          "63a465da-e369-48c5-8eec-c2b3d1d32ae5",
+          "a2acf12f-8bbb-4e50-ab97-b7c2275a79eb"
         ],
         "settings": {
           "bg_color": "#000000",
           "color": "#ffffff",
           "layout": "slider",
-          "speed": 7
+          "speed": 5
         }
       },
       "footer": {
@@ -203,7 +216,8 @@
             "type": "newsletter",
             "settings": {
               "richtext": "",
-              "enable_name": false
+              "enable_name": false,
+              "html": ""
             }
           }
         },
@@ -222,7 +236,9 @@
           "footer_payment_enable": false,
           "show_locale_selector": false,
           "show_currency_selector": false,
-          "type": "currency"
+          "type": "currency",
+          "padding_top": 0,
+          "padding_bottom": 0
         }
       },
       "popups": {

@@ -11,7 +11,9 @@
         "height": "margin--medium",
         "width": "wrapper",
         "text_color": "text-dark",
-        "bg_color": "#ffffff"
+        "bg_color": "#ffffff",
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "faq-first": {
@@ -104,7 +106,9 @@
         "width": "wrapper--narrow",
         "height": "margin--zero",
         "text_color": "text-dark",
-        "bg_color": "#ffffff"
+        "bg_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "1649438789e7aa1298": {
@@ -151,7 +155,9 @@
         "height": "margin--small",
         "width": "wrapper--narrow",
         "text_color": "text-dark",
-        "bg_color": "#ffffff"
+        "bg_color": "#ffffff",
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     }
   },

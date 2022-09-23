@@ -11,14 +11,18 @@
         "height": "margin--medium",
         "width": "wrapper",
         "text_color": "text-dark",
-        "bg_color": "#ffffff"
+        "bg_color": "#ffffff",
+        "padding_top": 30,
+        "padding_bottom": 30
       }
     },
     "1658958455e4c06b02": {
       "type": "custom-html",
       "settings": {
         "html": "<style>\n.custom-html-section--padding{\npadding-top: 0;\n}\n<\/style>\n\n<div id=\"GiftWizard-account__div\"><\/div>",
-        "show_padding": true
+        "show_padding": true,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
