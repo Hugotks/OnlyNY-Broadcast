@@ -9365,6 +9365,8 @@
     sliderEnabled: 'flickity-enabled',
     focusEnabled: 'is-focused',
     thumbsSlider: '[data-thumbs-slider]',
+    flickityPrevArrow: '.flickity-button.previous',
+    flickityNextArrow: '.flickity-button.next',
   };
 
   const classes$h = {
@@ -9385,6 +9387,12 @@
       this.slideshow = this.container.querySelector(selectors$w.productSlideshow);
       this.thumbs = this.container.querySelector(selectors$w.productThumbs);
       this.mobileSliderEnable = this.container.getAttribute(selectors$w.mobileSliderEnable) === 'true';
+      this.dragStartElement;
+      this.dragEndElement;
+      this.dragStartIndex;
+      this.dragEndIndex;
+      this.prevArrow;
+      this.nextArrow;
 
       this.flkty = null;
 
@@ -9435,7 +9443,8 @@
 
       let flickityOptions = {
         autoPlay: false,
-        prevNextButtons: false,
+        draggable: false,
+        prevNextButtons: true,
         contain: true,
         pageDots: false,
         adaptiveHeight: true,
@@ -9451,45 +9460,12 @@
       this.flkty = new FlickityFade(this.slideshow, flickityOptions);
       this.flkty.resize();
 
-      if (isiOS()) {
-        this.flkty.on('dragStart', () => {
-          document.ontouchmove = () => false;
-        });
-        this.flkty.on('dragEnd', () => {
-          document.ontouchmove = () => true;
-        });
-        
-        // just in case the dragEnd event doesn't fire:
-        document.body.addEventListener('touchstart', (ev) => {
-            document.ontouchmove = () => true;
-        });
-      }
-      
-      function isiOS() {
-        return [
-          'iPad Simulator',
-          'iPhone Simulator',
-          'iPod Simulator',
-          'iPad',
-          'iPhone',
-          'iPod'
-        ].includes(navigator.platform)
-        // iPad on iOS 13 detection
-        || (navigator.userAgent.includes("Mac") && "ontouchend" in document);
-      }      
-      
-      // window.addEventListener('resize', () => {
-      //   if (this.flkty.isAnimating) {
-      //     this.flkty.resizeQueued = true;
-      //   } else {
-      //     this.flkty.resize();
-      //   }
-      // });
-
-
       if (document.querySelector('[data-selected]')) {
         this.flkty.select(parseInt(document.querySelector('[data-selected]').dataset.selected) - 1);
       }
+
+      this.prevArrow = this.container.querySelector(selectors$w.flickityPrevArrow);
+      this.nextArrow = this.container.querySelector(selectors$w.flickityNextArrow);
 
       if (firstSlide) {
         const firstType = firstSlide.getAttribute(selectors$w.mediaType);
@@ -9499,6 +9475,44 @@
           this.flkty.updateDraggable();
         }
       }
+
+      this.prevArrow.addEventListener('click', () => {
+        var flktyElements = this.flkty.element.querySelectorAll('.product__slide');
+        var selectedElement = this.flkty.selectedElement;
+        var selectedIndex = this.flkty.selectedIndex;
+        var nextElement = selectedIndex == flktyElements.length - 1 ? flktyElements[0] : selectedElement.nextSibling;
+        console.log(nextElement)
+
+        while (selectedElement.dataset.color != nextElement.dataset.color) {
+          console.log(selectedIndex)
+          selectedElement = selectedElement.previousSibling;
+          selectedIndex --;
+          if (!selectedElement) {
+            selectedIndex = flktyElements.length - 1;
+            selectedElement = flktyElements[selectedIndex];
+          }
+        }
+
+        this.flkty.select(selectedIndex);
+      });
+
+      this.nextArrow.addEventListener('click', () => {
+        var flktyElements = this.flkty.element.querySelectorAll('.product__slide');
+        var selectedElement = this.flkty.selectedElement;
+        var selectedIndex = this.flkty.selectedIndex;
+        var prevElement = selectedIndex == 0 ? flktyElements[flktyElements.length - 1] : selectedElement.previousSibling;
+
+        while (selectedElement.dataset.color != prevElement.dataset.color) {
+          selectedElement = selectedElement.nextSibling;
+          selectedIndex ++;
+          if (!selectedElement) {
+            selectedIndex = 0;
+            selectedElement = flktyElements[selectedIndex];
+          }
+        }
+
+        this.flkty.select(selectedIndex);
+      });
 
       this.flkty.on('change', function (index) {
         let lastSLideIdx = index;
@@ -9527,11 +9541,6 @@
       });
 
       this.flkty.on('settle', function () {
-        if (instance.flkty.resizeQueued) {
-          instance.flkty.resizeQueued = false;
-          instance.flkty.resize();
-        }
-        
         const currentMedia = this.selectedElement;
         const otherMedia = Array.prototype.filter.call(currentMedia.parentNode.children, function (child) {
           return child !== currentMedia;
@@ -9544,7 +9553,7 @@
           instance.flkty.options.draggable = false;
           instance.flkty.updateDraggable();
         } else {
-          instance.flkty.options.draggable = true;
+          instance.flkty.options.draggable = false;
           instance.flkty.updateDraggable();
         }
 
@@ -9566,10 +9575,40 @@
       });
 
       this.flkty.on('dragStart', (event, pointer) => {
+        this.dragStartElement = this.flkty.selectedElement;
+        this.dragStartIndex = this.flkty.selectedIndex;
         event.target.classList.add(classes$h.classDrag);
       });
 
       this.flkty.on('dragEnd', (event, pointer) => {
+        var index, flktyElements = this.flkty.element.querySelectorAll('.product__slide');
+        this.dragEndElement = this.flkty.selectedElement;
+        this.dragEndIndex = this.flkty.selectedIndex;
+        index = this.dragEndIndex;
+        
+        if (this.dragStartElement.dataset.color != this.dragEndElement.dataset.color) {
+          if (this.dragEndIndex - this.dragStartIndex == 1 || this.dragEndIndex == 0) {
+            while (this.dragStartElement.dataset.color != this.dragEndElement.dataset.color) {
+              this.dragEndElement = this.dragEndElement.nextSibling;
+              index ++;
+              if (!this.dragEndElement) {
+                index = 0;
+                this.dragEndElement = flktyElements[index];
+              }
+            }
+          }
+          if (this.dragEndIndex - this.dragStartIndex == -1 || this.dragEndIndex == flktyElements.length - 1) {
+            while (this.dragStartElement.dataset.color != this.dragEndElement.dataset.color) {
+              this.dragEndElement = this.dragEndElement.previousSibling;
+              index --;
+              if (!this.dragEndElement) {
+                index = flktyElements.length - 1;
+                this.dragEndElement = flktyElements[index];
+              }
+            }
+          }
+          this.flkty.select(index);
+        }
         const draggedElem = this.flkty.element.querySelector(`.${classes$h.classDrag}`);
         if (draggedElem) {
           draggedElem.classList.remove(classes$h.classDrag);

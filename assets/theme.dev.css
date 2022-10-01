@@ -23909,6 +23909,11 @@ svg.arrow_black polygon {
 
 .flickity-slider { -webkit-overflow-scrolling: touch; }
 
+.flickity-prev-next-button.next:before {
+  right: 0;
+  left: unset;
+}
+
 @media only screen and (min-width: 750px) and (max-width: 989px) {
   .section-padding {
     --padding-top: calc(var(--PT) * 0.8);
@@ -23919,5 +23924,11 @@ svg.arrow_black polygon {
   .section-padding {
     --padding-top: calc(var(--PT) * 0.6);
     --padding-bottom: calc(var(--PB) * 0.6);
+  }
+}
+
+@media only screen and (min-width: 749px) {
+  .product__slides .flickity-button {
+    display: none;
   }
 }
